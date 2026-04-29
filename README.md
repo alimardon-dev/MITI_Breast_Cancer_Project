@@ -222,4 +222,4 @@ leads to a **more accurate and robust breast cancer classification system**.
 
 ## 👨‍💻 Author
 
-Developed as part of a medical AI project focusing on **computer vision and healthcare applications**.
+Alimardon 
