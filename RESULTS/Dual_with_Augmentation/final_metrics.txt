@@ -1,0 +1,7 @@
+Best Validation Accuracy: 0.8065
+Test Loss: 0.6982
+Test Accuracy: 0.7333
+Model: Dual-input ResNet18 CC + MLO
+Augmentation: YES
+Dropout: 0.6
+Trainable layers: layer4 + classifier

@@ -1,0 +1,4 @@
+Best Epoch: 5
+Best Validation Accuracy: 0.7065
+Test Loss: 0.5471
+Test Accuracy: 0.7241

@@ -1,0 +1,7 @@
+Best Validation Accuracy: 0.7838
+Test Loss: 1.1786
+Test Accuracy: 0.6770
+Model: CC CNN ResNet18
+Augmentation: NO
+Class weights: Benign=1.0, Malignant=2.0
+Trainable layers: layer3, layer4, fc

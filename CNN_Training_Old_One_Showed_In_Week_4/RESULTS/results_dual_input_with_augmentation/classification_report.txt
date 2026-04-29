@@ -1,0 +1,9 @@
+dual both CC and MLO with aug
+              precision    recall  f1-score   support
+
+      Benign     0.7879    0.7027    0.7429        37
+   Malignant     0.7027    0.7879    0.7429        33
+
+    accuracy                         0.7429        70
+   macro avg     0.7453    0.7453    0.7429        70
+weighted avg     0.7477    0.7429    0.7429        70

@@ -1,0 +1,14 @@
+# Ignore medical images
+Data/**/*.dcm
+Data/**/*.png
+
+# But keep folder structure
+!Data/**/.gitkeep
+
+# Ignore models
+*.pth
+*.pt
+
+# Ignore heavy results
+RESULTS/models/
+RESULTS/logs/

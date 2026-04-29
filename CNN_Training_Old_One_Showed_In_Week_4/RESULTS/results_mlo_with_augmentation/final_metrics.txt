@@ -1,0 +1,6 @@
+MLO with aug
+Best Validation Accuracy: 0.6771
+Test Loss: 0.6878
+Test Accuracy: 0.6733
+Class weights: Benign=1.0, Malignant=2.0
+Trainable layers: layer3, layer4, fc

@@ -1,0 +1,6 @@
+CC with aug
+Best Validation Accuracy: 0.7283
+Test Loss: 0.7187
+Test Accuracy: 0.7586
+Class weights: Benign=1.0, Malignant=2.0
+Trainable layers: layer3, layer4, fc
