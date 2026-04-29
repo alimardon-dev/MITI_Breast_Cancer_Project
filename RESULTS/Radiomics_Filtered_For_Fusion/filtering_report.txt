@@ -1,0 +1,38 @@
+Radiomics Filtering Report for Fusion
+=============================================
+
+Input radiomics:
+Train CC: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Radiomics\Fusion_Features\train_cc_radiomics_without_shape_normalized.csv
+Train MLO: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Radiomics\Fusion_Features\train_mlo_radiomics_without_shape_normalized.csv
+Test CC: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Radiomics\Fusion_Features\test_cc_radiomics_without_shape_normalized.csv
+Test MLO: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Radiomics\Fusion_Features\test_mlo_radiomics_without_shape_normalized.csv
+
+Rule:
+Only patients found in CNN_Both split AND CC radiomics AND MLO radiomics are kept.
+
+TRAIN
+--------------------
+CNN_Both patients: 378
+After CC + MLO radiomics merge: 378
+Skipped patients: 0
+Benign: 178
+Malignant: 200
+Saved: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\RESULTS\Radiomics_Filtered_For_Fusion\train_radiomics_for_fusion.csv
+
+VAL
+--------------------
+CNN_Both patients: 95
+After CC + MLO radiomics merge: 95
+Skipped patients: 0
+Benign: 45
+Malignant: 50
+Saved: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\RESULTS\Radiomics_Filtered_For_Fusion\val_radiomics_for_fusion.csv
+
+TEST
+--------------------
+CNN_Both patients: 135
+After CC + MLO radiomics merge: 135
+Skipped patients: 0
+Benign: 76
+Malignant: 59
+Saved: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\RESULTS\Radiomics_Filtered_For_Fusion\test_radiomics_for_fusion.csv

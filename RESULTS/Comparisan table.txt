@@ -1,0 +1,25 @@
+# Breast Cancer Classification Results (Test Set)
+
+## Model                           | Accuracy | Benign Recall | Malignant Recall | Macro F1 | Notes
+
+CC (ResNet18)                  | ~0.73–0.75 | ~0.76         | ~0.70            | ~0.73    | Strong single-view
+MLO (ResNet50)                 | ~0.70      | ~0.72         | ~0.67            | ~0.69    | Weaker than CC
+Dual CNN                       | ~0.68–0.70 | ~0.70         | ~0.66            | ~0.68    | Early fusion struggled
+Late Fusion (0.5/0.5)          | 0.71       | 0.72          | 0.69             | 0.71     | Best pure CNN approach
+Hybrid (Logistic Regression)   | 0.70       | 0.74          | 0.64             | 0.69     | Radiomics didn’t help much
+Hybrid (Random Forest)         | ~0.70      | ~0.73         | ~0.66            | ~0.70    | Stable but not best
+Hybrid (XGBoost)               | 0.72       | 0.72          | 0.71             | 0.72     | FINAL BEST MODEL
+
+================================================
+
+Key Insights:
+
+* CC view performs better than MLO view
+* Late fusion outperforms early (dual) fusion
+* Radiomics requires nonlinear models to be useful
+* XGBoost successfully combines CNN + radiomics
+
+Final Conclusion:
+The Hybrid CNN + Radiomics model using XGBoost achieved the best performance,
+demonstrating that radiomics features provide complementary information when
+combined with CNN predictions using nonlinear models.

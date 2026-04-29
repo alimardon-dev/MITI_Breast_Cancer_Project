@@ -1,0 +1,23 @@
+CNN_Both Patient Counts
+=======================
+
+TRAIN
+-----
+Benign: 178
+Malignant: 200
+Total train: 378
+
+VAL
+---
+Benign: 45
+Malignant: 50
+Total val: 95
+
+TEST
+----
+Benign: 0
+Malignant: 0
+Total test: 0
+
+=======================
+Total unique patients in CNN_Both: 465

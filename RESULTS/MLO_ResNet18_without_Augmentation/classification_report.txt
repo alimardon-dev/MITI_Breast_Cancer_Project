@@ -1,0 +1,21 @@
+MLO-only ResNet18 Without Augmentation
+======================================
+
+Seed: 42
+Device: cuda
+Training time: 22.03 seconds
+
+Test: common CNN_Both/test patient set using MLO.png only
+Test: 135 patients | Benign: 76 | Malignant: 59
+
+Augmentation: None
+Class weights: None
+
+              precision    recall  f1-score   support
+
+      Benign       0.70      0.42      0.52        76
+   Malignant       0.51      0.76      0.61        59
+
+    accuracy                           0.57       135
+   macro avg       0.60      0.59      0.57       135
+weighted avg       0.61      0.57      0.56       135

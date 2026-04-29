@@ -1,0 +1,23 @@
+CNN_CC_View File Counts
+========================
+
+TRAIN
+-----
+Benign: 242
+Malignant: 252
+Total train: 494
+
+VAL
+---
+Benign: 31
+Malignant: 43
+Total val: 74
+
+TEST
+----
+Benign: 94
+Malignant: 67
+Total test: 161
+
+========================
+Total Files (All): 729

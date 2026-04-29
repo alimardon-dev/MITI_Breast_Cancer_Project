@@ -1,258 +1,306 @@
 import os
+import copy
+import time
 import random
 import numpy as np
 import matplotlib.pyplot as plt
 
+from PIL import Image
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torchvision import datasets, transforms, models
-from torch.utils.data import DataLoader
+from torch.utils.data import Dataset, DataLoader
+from torchvision import models, transforms
 
+
+# =========================
+# SEED
+# =========================
 
 SEED = 42
 
-random.seed(SEED)
-np.random.seed(SEED)
-torch.manual_seed(SEED)
-torch.cuda.manual_seed_all(SEED)
+def set_seed(seed=42):
+    random.seed(seed)
+    np.random.seed(seed)
 
-torch.backends.cudnn.deterministic = True
-torch.backends.cudnn.benchmark = False
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
 
-
-DATA_DIR = r"C:\Users\USER\Desktop\CNN_TRAINING_2.0\cnn_cc_view"
-
-TRAIN_DIR = os.path.join(DATA_DIR, "train")
-VAL_DIR   = os.path.join(DATA_DIR, "val")
-TEST_DIR  = os.path.join(DATA_DIR, "test")
-
-OUTPUT_DIR = r"C:\Users\USER\Desktop\CNN_TRAINING_2.0\RESULTS\CC_without_Augmentation"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
 
 
-IMAGE_SIZE = 256
-BATCH_SIZE = 32
+set_seed(SEED)
+
+
+# =========================
+# CONFIG
+# =========================
+
+DATA_DIR = "Data/CNN_Training/CNN_CC_View"
+RESULTS_DIR = "RESULTS/CC_ResNet18_without_Augmentation"
+
+IMAGE_SIZE = 224
+BATCH_SIZE = 32   # larger batch (lighter model)
 NUM_EPOCHS = 30
 LEARNING_RATE = 1e-4
-WEIGHT_DECAY = 1e-4
-NUM_WORKERS = 0
+PATIENCE = 7
+
+CLASS_NAMES = ["Benign", "Malignant"]
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-no_aug_transform = transforms.Compose([
-    transforms.Grayscale(num_output_channels=3),
+# =========================
+# DATASETS
+# =========================
+
+class SingleImageFolderDataset(Dataset):
+    def __init__(self, root_dir, transform=None):
+        self.samples = []
+        self.transform = transform
+
+        for label_idx, class_name in enumerate(CLASS_NAMES):
+            class_path = os.path.join(root_dir, class_name)
+
+            if not os.path.exists(class_path):
+                print(f"Missing folder: {class_path}")
+                continue
+
+            for file in os.listdir(class_path):
+                file_path = os.path.join(class_path, file)
+
+                if os.path.isfile(file_path) and file.lower().endswith((".png", ".jpg", ".jpeg")):
+                    self.samples.append((file_path, label_idx))
+
+        print(f"Loaded {len(self.samples)} images from {root_dir}")
+
+    def __len__(self):
+        return len(self.samples)
+
+    def __getitem__(self, idx):
+        img_path, label = self.samples[idx]
+
+        image = Image.open(img_path).convert("RGB")
+
+        if self.transform:
+            image = self.transform(image)
+
+        return image, label
+
+
+class CCFromPatientFolderDataset(Dataset):
+    def __init__(self, root_dir, transform=None):
+        self.samples = []
+        self.transform = transform
+
+        for label_idx, class_name in enumerate(CLASS_NAMES):
+            class_path = os.path.join(root_dir, class_name)
+
+            for patient_id in os.listdir(class_path):
+                patient_path = os.path.join(class_path, patient_id)
+
+                if not os.path.isdir(patient_path):
+                    continue
+
+                cc_path = os.path.join(patient_path, "CC.png")
+
+                if os.path.exists(cc_path):
+                    self.samples.append((cc_path, label_idx))
+
+        print(f"Loaded {len(self.samples)} CC test images from {root_dir}")
+
+    def __len__(self):
+        return len(self.samples)
+
+    def __getitem__(self, idx):
+        img_path, label = self.samples[idx]
+
+        image = Image.open(img_path).convert("RGB")
+
+        if self.transform:
+            image = self.transform(image)
+
+        return image, label
+
+
+# =========================
+# TRANSFORMS (NO AUG)
+# =========================
+
+data_transform = transforms.Compose([
     transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
     transforms.ToTensor(),
-    transforms.Normalize([0.5]*3, [0.5]*3)
+    transforms.Normalize(
+        mean=[0.485, 0.456, 0.406],
+        std=[0.229, 0.224, 0.225]
+    )
 ])
 
 
-train_dataset = datasets.ImageFolder(TRAIN_DIR, transform=no_aug_transform)
-val_dataset   = datasets.ImageFolder(VAL_DIR, transform=no_aug_transform)
-test_dataset  = datasets.ImageFolder(TEST_DIR, transform=no_aug_transform)
+# =========================
+# MODEL (ResNet18)
+# =========================
 
-train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS)
-val_loader   = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=NUM_WORKERS)
-test_loader  = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=NUM_WORKERS)
+class CCResNet18(nn.Module):
+    def __init__(self, num_classes=2):
+        super(CCResNet18, self).__init__()
 
-class_names = train_dataset.classes
+        self.backbone = models.resnet18(
+            weights=models.ResNet18_Weights.IMAGENET1K_V1
+        )
 
-print("Device:", DEVICE)
-print("Classes:", class_names)
-print("Train samples:", len(train_dataset))
-print("Val samples:", len(val_dataset))
-print("Test samples:", len(test_dataset))
+        num_features = self.backbone.fc.in_features
 
+        self.backbone.fc = nn.Sequential(
+            nn.Linear(num_features, 128),
+            nn.ReLU(),
+            nn.Dropout(0.4),
+            nn.Linear(128, num_classes)
+        )
 
-model = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
-
-for param in model.parameters():
-    param.requires_grad = False
-
-for param in model.layer3.parameters():
-    param.requires_grad = True
-
-for param in model.layer4.parameters():
-    param.requires_grad = True
-
-num_features = model.fc.in_features
-
-model.fc = nn.Sequential(
-    nn.Linear(num_features, 128),
-    nn.ReLU(),
-    nn.Dropout(0.5),
-    nn.Linear(128, 2)
-)
-
-model = model.to(DEVICE)
+    def forward(self, x):
+        return self.backbone(x)
 
 
-class_weights = torch.tensor([1.0, 2.0]).to(DEVICE)
+# =========================
+# TRAINING
+# =========================
 
-criterion = nn.CrossEntropyLoss(weight=class_weights)
+def train_model(model, dataloaders, criterion, optimizer):
+    best_model_weights = copy.deepcopy(model.state_dict())
+    best_val_loss = float("inf")
+    patience_counter = 0
 
-optimizer = optim.Adam(
-    filter(lambda p: p.requires_grad, model.parameters()),
-    lr=LEARNING_RATE,
-    weight_decay=WEIGHT_DECAY
-)
+    history = {"train_loss": [], "val_loss": [], "train_acc": [], "val_acc": []}
+
+    for epoch in range(NUM_EPOCHS):
+        print(f"\nEpoch {epoch + 1}/{NUM_EPOCHS}")
+        print("-" * 30)
+
+        for phase in ["train", "val"]:
+            model.train() if phase == "train" else model.eval()
+
+            running_loss = 0.0
+            running_corrects = 0
+            total_samples = 0
+
+            for images, labels in dataloaders[phase]:
+                images = images.to(DEVICE)
+                labels = labels.to(DEVICE)
+
+                optimizer.zero_grad()
+
+                with torch.set_grad_enabled(phase == "train"):
+                    outputs = model(images)
+                    loss = criterion(outputs, labels)
+                    _, preds = torch.max(outputs, 1)
+
+                    if phase == "train":
+                        loss.backward()
+                        optimizer.step()
+
+                running_loss += loss.item() * labels.size(0)
+                running_corrects += torch.sum(preds == labels).item()
+                total_samples += labels.size(0)
+
+            epoch_loss = running_loss / total_samples
+            epoch_acc = running_corrects / total_samples
+
+            history[f"{phase}_loss"].append(epoch_loss)
+            history[f"{phase}_acc"].append(epoch_acc)
+
+            print(f"{phase} Loss: {epoch_loss:.4f} Acc: {epoch_acc:.4f}")
+
+            if phase == "val":
+                if epoch_loss < best_val_loss:
+                    best_val_loss = epoch_loss
+                    best_model_weights = copy.deepcopy(model.state_dict())
+                    patience_counter = 0
+
+                    torch.save(
+                        model.state_dict(),
+                        os.path.join(RESULTS_DIR, "best_cc_resnet18_no_aug.pth")
+                    )
+
+                    print("✅ Best model saved")
+                else:
+                    patience_counter += 1
+                    print(f"Early stopping patience: {patience_counter}/{PATIENCE}")
+
+        if patience_counter >= PATIENCE:
+            print("\n⏹ Early stopping triggered")
+            break
+
+    model.load_state_dict(best_model_weights)
+    return model, history
 
 
-def train_one_epoch():
-    model.train()
-    correct = 0
-    total = 0
-    loss_sum = 0
+# =========================
+# EVALUATION
+# =========================
 
-    for x, y in train_loader:
-        x, y = x.to(DEVICE), y.to(DEVICE)
-
-        optimizer.zero_grad()
-        out = model(x)
-        loss = criterion(out, y)
-
-        loss.backward()
-        optimizer.step()
-
-        preds = out.argmax(1)
-
-        loss_sum += loss.item() * y.size(0)
-        correct += (preds == y).sum().item()
-        total += y.size(0)
-
-    return loss_sum / total, correct / total
-
-
-def evaluate(loader):
+def evaluate_model(model, dataloader):
     model.eval()
-    correct = 0
-    total = 0
-    loss_sum = 0
-
-    y_true = []
-    y_pred = []
-    y_prob_malignant = []
+    all_preds, all_labels = [], []
 
     with torch.no_grad():
-        for x, y in loader:
-            x, y = x.to(DEVICE), y.to(DEVICE)
+        for images, labels in dataloader:
+            images = images.to(DEVICE)
 
-            out = model(x)
-            loss = criterion(out, y)
+            outputs = model(images)
+            _, preds = torch.max(outputs, 1)
 
-            probs = torch.softmax(out, dim=1)
-            preds = out.argmax(1)
+            all_preds.extend(preds.cpu().numpy())
+            all_labels.extend(labels.numpy())
 
-            loss_sum += loss.item() * y.size(0)
-            correct += (preds == y).sum().item()
-            total += y.size(0)
-
-            y_true.extend(y.cpu().numpy())
-            y_pred.extend(preds.cpu().numpy())
-            y_prob_malignant.extend(probs[:, 1].cpu().numpy())
-
-    return loss_sum / total, correct / total, y_true, y_pred, y_prob_malignant
+    return np.array(all_labels), np.array(all_preds)
 
 
-history = {
-    "train_acc": [],
-    "val_acc": [],
-    "train_loss": [],
-    "val_loss": []
-}
+# =========================
+# MAIN
+# =========================
 
-best_val_acc = 0
-best_model_path = os.path.join(OUTPUT_DIR, "best_cc_no_aug_model.pth")
+def main():
+    os.makedirs(RESULTS_DIR, exist_ok=True)
 
-for epoch in range(NUM_EPOCHS):
-    train_loss, train_acc = train_one_epoch()
-    val_loss, val_acc, _, _, _ = evaluate(val_loader)
+    print(f"Using device: {DEVICE}")
+    print(f"Seed: {SEED}")
 
-    history["train_acc"].append(train_acc)
-    history["val_acc"].append(val_acc)
-    history["train_loss"].append(train_loss)
-    history["val_loss"].append(val_loss)
+    datasets = {
+        "train": SingleImageFolderDataset(os.path.join(DATA_DIR, "train"), data_transform),
+        "val": SingleImageFolderDataset(os.path.join(DATA_DIR, "val"), data_transform),
+        "test": CCFromPatientFolderDataset(os.path.join(DATA_DIR, "test"), data_transform)
+    }
 
-    print(
-        f"Epoch {epoch+1}/{NUM_EPOCHS} | "
-        f"Train Loss={train_loss:.4f}, Train Acc={train_acc:.4f} | "
-        f"Val Loss={val_loss:.4f}, Val Acc={val_acc:.4f}"
-    )
+    dataloaders = {
+        "train": DataLoader(datasets["train"], batch_size=BATCH_SIZE, shuffle=True),
+        "val": DataLoader(datasets["val"], batch_size=BATCH_SIZE),
+        "test": DataLoader(datasets["test"], batch_size=BATCH_SIZE)
+    }
 
-    if val_acc > best_val_acc:
-        best_val_acc = val_acc
-        torch.save(model.state_dict(), best_model_path)
-        print("Best model updated.")
+    model = CCResNet18().to(DEVICE)
 
+    criterion = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
 
-print("\nBest Val Acc:", best_val_acc)
+    start_time = time.time()
 
+    model, history = train_model(model, dataloaders, criterion, optimizer)
 
-model.load_state_dict(torch.load(best_model_path, weights_only=True))
+    training_time = time.time() - start_time
 
-test_loss, test_acc, y_true, y_pred, y_prob_malignant = evaluate(test_loader)
+    test_labels, test_preds = evaluate_model(model, dataloaders["test"])
 
-report = classification_report(
-    y_true,
-    y_pred,
-    target_names=class_names,
-    digits=4
-)
+    report = classification_report(test_labels, test_preds, target_names=CLASS_NAMES)
 
-print("\nTest Loss:", test_loss)
-print("Test Acc:", test_acc)
-print("\nClassification Report:\n")
-print(report)
+    print("\nTest Report:\n", report)
+
+    print(f"\nTraining time: {training_time:.2f} sec")
 
 
-with open(os.path.join(OUTPUT_DIR, "classification_report.txt"), "w") as f:
-    f.write(report)
-
-with open(os.path.join(OUTPUT_DIR, "final_metrics.txt"), "w") as f:
-    f.write(f"Best Validation Accuracy: {best_val_acc:.4f}\n")
-    f.write(f"Test Loss: {test_loss:.4f}\n")
-    f.write(f"Test Accuracy: {test_acc:.4f}\n")
-    f.write("Model: CC CNN ResNet18\n")
-    f.write("Augmentation: NO\n")
-    f.write("Class weights: Benign=1.0, Malignant=2.0\n")
-    f.write("Trainable layers: layer3, layer4, fc\n")
-
-with open(os.path.join(OUTPUT_DIR, "test_predictions.csv"), "w") as f:
-    f.write("true_label,predicted_label,malignant_probability\n")
-    for t, p, prob in zip(y_true, y_pred, y_prob_malignant):
-        f.write(f"{class_names[t]},{class_names[p]},{prob:.6f}\n")
-
-cm = confusion_matrix(y_true, y_pred)
-
-disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=class_names)
-disp.plot(cmap="Blues")
-plt.title("Confusion Matrix - CC CNN No Augmentation")
-plt.savefig(os.path.join(OUTPUT_DIR, "confusion_matrix.png"), dpi=300, bbox_inches="tight")
-plt.close()
-
-plt.figure()
-plt.plot(history["train_acc"], label="Train Acc")
-plt.plot(history["val_acc"], label="Val Acc")
-plt.xlabel("Epoch")
-plt.ylabel("Accuracy")
-plt.legend()
-plt.title("Accuracy Curve - CC CNN No Augmentation")
-plt.savefig(os.path.join(OUTPUT_DIR, "accuracy_curve.png"), dpi=300, bbox_inches="tight")
-plt.close()
-
-plt.figure()
-plt.plot(history["train_loss"], label="Train Loss")
-plt.plot(history["val_loss"], label="Val Loss")
-plt.xlabel("Epoch")
-plt.ylabel("Loss")
-plt.legend()
-plt.title("Loss Curve - CC CNN No Augmentation")
-plt.savefig(os.path.join(OUTPUT_DIR, "loss_curve.png"), dpi=300, bbox_inches="tight")
-plt.close()
-
-print("\nSaved results to:")
-print(OUTPUT_DIR)
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,35 @@
+CNN_MLO_View Distribution Report
+========================================
+
+TRAIN
+--------------------
+Benign: 266
+Malignant: 296
+Total: 562
+Benign Ratio: 0.473
+Malignant Ratio: 0.527
+
+VAL
+--------------------
+Benign: 38
+Malignant: 45
+Total: 83
+Benign Ratio: 0.458
+Malignant Ratio: 0.542
+
+TEST
+--------------------
+Benign: 76
+Malignant: 59
+Total: 135
+Benign Ratio: 0.563
+Malignant Ratio: 0.437
+
+========================================
+OVERALL
+--------------------
+Total Benign: 380
+Total Malignant: 400
+Total Files: 780
+Benign Ratio: 0.487
+Malignant Ratio: 0.513

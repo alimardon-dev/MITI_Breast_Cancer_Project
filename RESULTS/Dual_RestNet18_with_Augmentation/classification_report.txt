@@ -1,0 +1,24 @@
+Dual ResNet18 With Augmentation
+================================
+
+Seed: 42
+Device: cuda
+Training time: 41.57 seconds
+
+Dataset:
+Train: 378 patients | Benign: 178 | Malignant: 200 | Files: 756
+Val: 95 patients | Benign: 45 | Malignant: 50 | Files: 190
+Test: 135 patients | Benign: 76 | Malignant: 59 | Files: 270
+
+Class weights:
+Benign: 1.06
+Malignant: 0.94
+
+              precision    recall  f1-score   support
+
+      Benign       0.70      0.67      0.68        76
+   Malignant       0.60      0.63      0.61        59
+
+    accuracy                           0.65       135
+   macro avg       0.65      0.65      0.65       135
+weighted avg       0.65      0.65      0.65       135

@@ -1,0 +1,25 @@
+Late Fusion: CC ResNet18 + MLO ResNet50
+=======================================
+
+Seed: 42
+Device: cuda
+
+Models:
+CC model: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\RESULTS\CC_ResNet18_with_Augmentation\best_cc_resnet18_with_aug.pth
+MLO model: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\RESULTS\MLO_ResNet50_with_Augmentation\best_mlo_resnet50_with_aug.pth
+
+Fusion strategy:
+Final probability = 0.7 * CC probability + 0.3 * MLO probability
+
+Test dataset:
+CNN_Both/test
+135 patients | Benign: 76 | Malignant: 59
+
+              precision    recall  f1-score   support
+
+      Benign       0.79      0.64      0.71        76
+   Malignant       0.63      0.78      0.70        59
+
+    accuracy                           0.70       135
+   macro avg       0.71      0.71      0.70       135
+weighted avg       0.72      0.70      0.70       135

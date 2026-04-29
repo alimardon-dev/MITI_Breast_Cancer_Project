@@ -1,0 +1,25 @@
+Radiomics Extraction Report
+========================================
+
+Settings:
+- Features: firstorder, glcm, glrlm, glszm, gldm, ngtdm
+- Shape features: excluded
+- Normalization: StandardScaler fitted on TRAIN only
+
+Train rows: 1213
+Test rows: 341
+Usable numeric features: 93
+
+TRAIN
+--------------------
+CC Benign: 273
+CC Malignant: 295
+MLO Benign: 304
+MLO Malignant: 341
+
+TEST
+--------------------
+CC Benign: 94
+CC Malignant: 67
+MLO Benign: 100
+MLO Malignant: 80

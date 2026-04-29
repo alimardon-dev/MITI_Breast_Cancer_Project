@@ -1,0 +1,39 @@
+CNN_Both Detailed Counts
+========================
+
+TRAIN
+-----
+Benign:
+  Patients: 178
+  Files: 356
+Malignant:
+  Patients: 200
+  Files: 400
+Total train Patients: 378
+Total train Files: 756
+
+VAL
+---
+Benign:
+  Patients: 45
+  Files: 90
+Malignant:
+  Patients: 50
+  Files: 100
+Total val Patients: 95
+Total val Files: 190
+
+TEST
+----
+Benign:
+  Patients: 76
+  Files: 152
+Malignant:
+  Patients: 59
+  Files: 118
+Total test Patients: 135
+Total test Files: 270
+
+========================
+Total Patients (All): 608
+Total Files (All): 1216

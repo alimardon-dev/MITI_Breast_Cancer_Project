@@ -1,0 +1,52 @@
+Hybrid CNN + Radiomics Tree Models
+=============================================
+
+Train: 373 patients
+Val: 95 patients
+Test: 135 patients
+
+Best model: XGBoost
+Best K: 20
+
+Validation tuning results:
+RandomForest | K=10 | Val Acc=0.8737 | Val Mal Recall=0.8600 | Val Macro F1=0.8736
+RandomForest | K=20 | Val Acc=0.8842 | Val Mal Recall=0.8800 | Val Macro F1=0.8840
+RandomForest | K=30 | Val Acc=0.8947 | Val Mal Recall=0.9200 | Val Macro F1=0.8942
+RandomForest | K=40 | Val Acc=0.8842 | Val Mal Recall=0.9200 | Val Macro F1=0.8834
+RandomForest | K=50 | Val Acc=0.8737 | Val Mal Recall=0.9000 | Val Macro F1=0.8730
+RandomForest | K=70 | Val Acc=0.8947 | Val Mal Recall=0.9400 | Val Macro F1=0.8938
+RandomForest | K=100 | Val Acc=0.8947 | Val Mal Recall=0.9400 | Val Macro F1=0.8938
+GradientBoosting | K=10 | Val Acc=0.8526 | Val Mal Recall=0.8400 | Val Macro F1=0.8525
+GradientBoosting | K=20 | Val Acc=0.8632 | Val Mal Recall=0.8600 | Val Macro F1=0.8629
+GradientBoosting | K=30 | Val Acc=0.8842 | Val Mal Recall=0.9000 | Val Macro F1=0.8837
+GradientBoosting | K=40 | Val Acc=0.8737 | Val Mal Recall=0.8600 | Val Macro F1=0.8736
+GradientBoosting | K=50 | Val Acc=0.8632 | Val Mal Recall=0.8400 | Val Macro F1=0.8631
+GradientBoosting | K=70 | Val Acc=0.8737 | Val Mal Recall=0.8800 | Val Macro F1=0.8733
+GradientBoosting | K=100 | Val Acc=0.8632 | Val Mal Recall=0.8800 | Val Macro F1=0.8626
+XGBoost | K=10 | Val Acc=0.8842 | Val Mal Recall=0.8800 | Val Macro F1=0.8840
+XGBoost | K=20 | Val Acc=0.8947 | Val Mal Recall=0.9000 | Val Macro F1=0.8944
+XGBoost | K=30 | Val Acc=0.8842 | Val Mal Recall=0.9000 | Val Macro F1=0.8837
+XGBoost | K=40 | Val Acc=0.8842 | Val Mal Recall=0.8800 | Val Macro F1=0.8840
+XGBoost | K=50 | Val Acc=0.8632 | Val Mal Recall=0.8400 | Val Macro F1=0.8631
+XGBoost | K=70 | Val Acc=0.8842 | Val Mal Recall=0.8800 | Val Macro F1=0.8840
+XGBoost | K=100 | Val Acc=0.8842 | Val Mal Recall=0.9000 | Val Macro F1=0.8837
+
+VALIDATION REPORT
+              precision    recall  f1-score   support
+
+      Benign       0.89      0.89      0.89        45
+   Malignant       0.90      0.90      0.90        50
+
+    accuracy                           0.89        95
+   macro avg       0.89      0.89      0.89        95
+weighted avg       0.89      0.89      0.89        95
+
+TEST REPORT
+              precision    recall  f1-score   support
+
+      Benign       0.74      0.75      0.75        76
+   Malignant       0.67      0.66      0.67        59
+
+    accuracy                           0.71       135
+   macro avg       0.71      0.71      0.71       135
+weighted avg       0.71      0.71      0.71       135

@@ -41,13 +41,13 @@ set_seed(SEED)
 # =========================
 
 DATA_DIR = "Data/CNN_Training/CNN_MLO_View"
-RESULTS_DIR = "RESULTS/MLO_ResNet18_without_Augmentation"
+RESULTS_DIR = "RESULTS/MLO_ResNet50_with_Augmentation"
 
 IMAGE_SIZE = 224
-BATCH_SIZE = 32
-NUM_EPOCHS = 30
-LEARNING_RATE = 1e-4
-PATIENCE = 7
+BATCH_SIZE = 16
+NUM_EPOCHS = 35
+LEARNING_RATE = 5e-5
+PATIENCE = 8
 
 CLASS_NAMES = ["Benign", "Malignant"]
 
@@ -144,10 +144,31 @@ class MLOFromPatientFolderDataset(Dataset):
 
 
 # =========================
-# TRANSFORMS — NO AUGMENTATION
+# TRANSFORMS
 # =========================
 
-data_transform = transforms.Compose([
+train_transform = transforms.Compose([
+    transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
+
+    # Safe augmentation for mammogram MLO view
+    transforms.RandomHorizontalFlip(p=0.5),
+    transforms.RandomRotation(degrees=8),
+    transforms.RandomAffine(
+        degrees=0,
+        translate=(0.04, 0.04),
+        scale=(0.96, 1.04),
+        shear=3
+    ),
+    transforms.RandomAutocontrast(p=0.3),
+
+    transforms.ToTensor(),
+    transforms.Normalize(
+        mean=[0.485, 0.456, 0.406],
+        std=[0.229, 0.224, 0.225]
+    )
+])
+
+eval_transform = transforms.Compose([
     transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
     transforms.ToTensor(),
     transforms.Normalize(
@@ -161,20 +182,26 @@ data_transform = transforms.Compose([
 # MODEL
 # =========================
 
-class MLOResNet18(nn.Module):
+class MLOResNet50(nn.Module):
     def __init__(self, num_classes=2):
-        super(MLOResNet18, self).__init__()
+        super(MLOResNet50, self).__init__()
 
-        self.backbone = models.resnet18(
-            weights=models.ResNet18_Weights.IMAGENET1K_V1
+        self.backbone = models.resnet50(
+            weights=models.ResNet50_Weights.IMAGENET1K_V2
         )
 
         num_features = self.backbone.fc.in_features
 
         self.backbone.fc = nn.Sequential(
-            nn.Linear(num_features, 128),
+            nn.Linear(num_features, 512),
             nn.ReLU(),
-            nn.Dropout(0.4),
+            nn.BatchNorm1d(512),
+            nn.Dropout(0.5),
+
+            nn.Linear(512, 128),
+            nn.ReLU(),
+            nn.Dropout(0.3),
+
             nn.Linear(128, num_classes)
         )
 
@@ -245,7 +272,7 @@ def train_model(model, dataloaders, criterion, optimizer):
 
                     torch.save(
                         model.state_dict(),
-                        os.path.join(RESULTS_DIR, "best_mlo_resnet18_no_aug.pth")
+                        os.path.join(RESULTS_DIR, "best_mlo_resnet50_with_aug.pth")
                     )
 
                     print("✅ Best model saved")
@@ -291,7 +318,7 @@ def plot_training_curves(history):
     plt.xlabel("Epoch")
     plt.ylabel("Loss")
     plt.legend()
-    plt.title("MLO ResNet18 Without Augmentation - Loss")
+    plt.title("MLO ResNet50 With Augmentation - Loss")
     plt.savefig(os.path.join(RESULTS_DIR, "loss_curve.png"), dpi=300, bbox_inches="tight")
     plt.close()
 
@@ -301,7 +328,7 @@ def plot_training_curves(history):
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy")
     plt.legend()
-    plt.title("MLO ResNet18 Without Augmentation - Accuracy")
+    plt.title("MLO ResNet50 With Augmentation - Accuracy")
     plt.savefig(os.path.join(RESULTS_DIR, "accuracy_curve.png"), dpi=300, bbox_inches="tight")
     plt.close()
 
@@ -314,7 +341,7 @@ def save_confusion_matrix(labels, preds):
     )
 
     disp.plot(cmap="Blues")
-    plt.title("Confusion Matrix - MLO ResNet18 Without Augmentation")
+    plt.title("Confusion Matrix - MLO ResNet50 With Augmentation")
     plt.savefig(os.path.join(RESULTS_DIR, "confusion_matrix.png"), dpi=300, bbox_inches="tight")
     plt.close()
 
@@ -332,15 +359,15 @@ def main():
     datasets = {
         "train": SingleImageFolderDataset(
             os.path.join(DATA_DIR, "train"),
-            transform=data_transform
+            transform=train_transform
         ),
         "val": SingleImageFolderDataset(
             os.path.join(DATA_DIR, "val"),
-            transform=data_transform
+            transform=eval_transform
         ),
         "test": MLOFromPatientFolderDataset(
             os.path.join(DATA_DIR, "test"),
-            transform=data_transform
+            transform=eval_transform
         )
     }
 
@@ -365,9 +392,8 @@ def main():
         )
     }
 
-    model = MLOResNet18(num_classes=2).to(DEVICE)
+    model = MLOResNet50(num_classes=2).to(DEVICE)
 
-    # MLO train is only mildly imbalanced, so no class weights for baseline.
     criterion = nn.CrossEntropyLoss()
 
     optimizer = optim.AdamW(
@@ -401,14 +427,20 @@ def main():
     print(report)
 
     with open(os.path.join(RESULTS_DIR, "classification_report.txt"), "w", encoding="utf-8") as f:
-        f.write("MLO-only ResNet18 Without Augmentation\n")
-        f.write("======================================\n\n")
+        f.write("MLO-only ResNet50 With Augmentation\n")
+        f.write("===================================\n\n")
         f.write(f"Seed: {SEED}\n")
         f.write(f"Device: {DEVICE}\n")
         f.write(f"Training time: {training_time:.2f} seconds\n\n")
         f.write("Test: common CNN_Both/test patient set using MLO.png only\n")
         f.write("Test: 135 patients | Benign: 76 | Malignant: 59\n\n")
-        f.write("Augmentation: None\n")
+        f.write("Augmentation:\n")
+        f.write("- Horizontal flip\n")
+        f.write("- Small rotation\n")
+        f.write("- Small translation\n")
+        f.write("- Small zoom\n")
+        f.write("- Small shear\n")
+        f.write("- Random autocontrast\n\n")
         f.write("Class weights: None\n\n")
         f.write(report)
 

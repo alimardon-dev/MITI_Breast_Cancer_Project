@@ -1,0 +1,31 @@
+CC-only ResNet50 With Augmentation
+==================================
+
+Seed: 42
+Device: cuda
+Training time: 62.45 seconds
+
+Dataset:
+Train: 494 images | Benign: 242 | Malignant: 252
+Val: 74 images | Benign: 31 | Malignant: 43
+Test: common CNN_Both/test patient set using CC.png only
+Test: 135 patients | Benign: 76 | Malignant: 59
+
+Augmentation:
+- Horizontal flip
+- Small rotation
+- Small translation
+- Small zoom
+- Small shear
+- Random autocontrast
+
+Class weights: None, train set nearly balanced
+
+              precision    recall  f1-score   support
+
+      Benign       0.68      0.66      0.67        76
+   Malignant       0.57      0.59      0.58        59
+
+    accuracy                           0.63       135
+   macro avg       0.62      0.63      0.62       135
+weighted avg       0.63      0.63      0.63       135

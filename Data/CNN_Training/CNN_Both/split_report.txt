@@ -1,0 +1,18 @@
+CNN_Both Train/Validation Split Report
+=====================================
+Train ratio: 0.8
+Validation ratio: 0.19999999999999996
+
+Benign
+------
+Total complete patients: 223
+Train patients: 178
+Validation patients: 45
+Missing CC/MLO pairs skipped: 81
+
+Malignant
+---------
+Total complete patients: 250
+Train patients: 200
+Validation patients: 50
+Missing CC/MLO pairs skipped: 95

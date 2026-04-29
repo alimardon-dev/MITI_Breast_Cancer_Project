@@ -1,0 +1,49 @@
+Late Fusion Weight Tuning Report
+========================================
+
+Selection rule:
+Best weight selected on validation using Macro F1, then malignant recall, then accuracy.
+
+Validation Results:
+CC=0.00, MLO=1.00 | Val Acc=0.8105 | Val Mal Recall=0.8000 | Val Macro F1=0.8103
+CC=0.05, MLO=0.95 | Val Acc=0.8105 | Val Mal Recall=0.8000 | Val Macro F1=0.8103
+CC=0.10, MLO=0.90 | Val Acc=0.8105 | Val Mal Recall=0.8200 | Val Macro F1=0.8100
+CC=0.15, MLO=0.85 | Val Acc=0.8421 | Val Mal Recall=0.8600 | Val Macro F1=0.8415
+CC=0.20, MLO=0.80 | Val Acc=0.8632 | Val Mal Recall=0.8600 | Val Macro F1=0.8629
+CC=0.25, MLO=0.75 | Val Acc=0.8737 | Val Mal Recall=0.9000 | Val Macro F1=0.8730
+CC=0.30, MLO=0.70 | Val Acc=0.8842 | Val Mal Recall=0.9400 | Val Macro F1=0.8829
+CC=0.35, MLO=0.65 | Val Acc=0.8842 | Val Mal Recall=0.9400 | Val Macro F1=0.8829
+CC=0.40, MLO=0.60 | Val Acc=0.8947 | Val Mal Recall=0.9600 | Val Macro F1=0.8933
+CC=0.45, MLO=0.55 | Val Acc=0.8842 | Val Mal Recall=0.9600 | Val Macro F1=0.8823
+CC=0.50, MLO=0.50 | Val Acc=0.9053 | Val Mal Recall=0.9800 | Val Macro F1=0.9037
+CC=0.55, MLO=0.45 | Val Acc=0.9053 | Val Mal Recall=0.9800 | Val Macro F1=0.9037
+CC=0.60, MLO=0.40 | Val Acc=0.8947 | Val Mal Recall=0.9800 | Val Macro F1=0.8927
+CC=0.65, MLO=0.35 | Val Acc=0.8947 | Val Mal Recall=0.9800 | Val Macro F1=0.8927
+CC=0.70, MLO=0.30 | Val Acc=0.8947 | Val Mal Recall=0.9800 | Val Macro F1=0.8927
+CC=0.75, MLO=0.25 | Val Acc=0.8842 | Val Mal Recall=0.9800 | Val Macro F1=0.8816
+CC=0.80, MLO=0.20 | Val Acc=0.8842 | Val Mal Recall=0.9800 | Val Macro F1=0.8816
+CC=0.85, MLO=0.15 | Val Acc=0.8947 | Val Mal Recall=0.9800 | Val Macro F1=0.8927
+CC=0.90, MLO=0.10 | Val Acc=0.8842 | Val Mal Recall=0.9800 | Val Macro F1=0.8816
+CC=0.95, MLO=0.05 | Val Acc=0.8842 | Val Mal Recall=0.9800 | Val Macro F1=0.8816
+CC=1.00, MLO=0.00 | Val Acc=0.8842 | Val Mal Recall=0.9800 | Val Macro F1=0.8816
+
+Best Validation Weight:
+CC weight: 0.50
+MLO weight: 0.50
+Val Acc: 0.9053
+Val Mal Recall: 0.9800
+Val Macro F1: 0.9037
+
+Test Report:
+              precision    recall  f1-score   support
+
+      Benign       0.75      0.72      0.74        76
+   Malignant       0.66      0.69      0.68        59
+
+    accuracy                           0.71       135
+   macro avg       0.71      0.71      0.71       135
+weighted avg       0.71      0.71      0.71       135
+
+Test Confusion Matrix:
+[[55 21]
+ [18 41]]

@@ -1,0 +1,40 @@
+Clean Hybrid Model: CNN Late Fusion Probability + Radiomics
+=================================================================
+
+Train: 373 patients
+Val: 95 patients
+Test: 135 patients
+
+Initial feature count: 188
+Best K selected on validation: 20
+
+Validation tuning results:
+K=3 | Val Acc=0.8842 | Val Mal Recall=0.9400 | Val Macro F1=0.8829
+K=5 | Val Acc=0.8947 | Val Mal Recall=0.9400 | Val Macro F1=0.8938
+K=8 | Val Acc=0.9053 | Val Mal Recall=0.9600 | Val Macro F1=0.9042
+K=10 | Val Acc=0.8947 | Val Mal Recall=0.9400 | Val Macro F1=0.8938
+K=15 | Val Acc=0.8947 | Val Mal Recall=0.9400 | Val Macro F1=0.8938
+K=20 | Val Acc=0.9053 | Val Mal Recall=0.9400 | Val Macro F1=0.9046
+K=30 | Val Acc=0.8842 | Val Mal Recall=0.9000 | Val Macro F1=0.8837
+K=40 | Val Acc=0.8737 | Val Mal Recall=0.9000 | Val Macro F1=0.8730
+K=50 | Val Acc=0.8737 | Val Mal Recall=0.9000 | Val Macro F1=0.8730
+
+VALIDATION REPORT
+              precision    recall  f1-score   support
+
+      Benign       0.93      0.87      0.90        45
+   Malignant       0.89      0.94      0.91        50
+
+    accuracy                           0.91        95
+   macro avg       0.91      0.90      0.90        95
+weighted avg       0.91      0.91      0.91        95
+
+TEST REPORT
+              precision    recall  f1-score   support
+
+      Benign       0.73      0.72      0.73        76
+   Malignant       0.65      0.66      0.66        59
+
+    accuracy                           0.70       135
+   macro avg       0.69      0.69      0.69       135
+weighted avg       0.70      0.70      0.70       135

@@ -40,8 +40,8 @@ set_seed(SEED)
 # CONFIG
 # =========================
 
-DATA_DIR = "Data/CNN_Training/CNN_MLO_View"
-RESULTS_DIR = "RESULTS/MLO_ResNet18_without_Augmentation"
+DATA_DIR = "Data/CNN_Training/CNN_CC_View"
+RESULTS_DIR = "RESULTS/CC_ResNet18_with_Augmentation"
 
 IMAGE_SIZE = 224
 BATCH_SIZE = 32
@@ -61,8 +61,8 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 class SingleImageFolderDataset(Dataset):
     """
     For train/val:
-    CNN_MLO_View/train/Benign/*.png
-    CNN_MLO_View/train/Malignant/*.png
+    CNN_CC_View/train/Benign/*.png
+    CNN_CC_View/train/Malignant/*.png
     """
     def __init__(self, root_dir, transform=None):
         self.samples = []
@@ -97,13 +97,13 @@ class SingleImageFolderDataset(Dataset):
         return image, label
 
 
-class MLOFromPatientFolderDataset(Dataset):
+class CCFromPatientFolderDataset(Dataset):
     """
     For test:
-    CNN_MLO_View/test/Benign/P_00032/MLO.png
-    CNN_MLO_View/test/Malignant/P_xxxxx/MLO.png
+    CNN_CC_View/test/Benign/P_00032/CC.png
+    CNN_CC_View/test/Malignant/P_xxxxx/CC.png
 
-    It ignores CC.png.
+    It ignores MLO.png.
     """
     def __init__(self, root_dir, transform=None):
         self.samples = []
@@ -122,12 +122,12 @@ class MLOFromPatientFolderDataset(Dataset):
                 if not os.path.isdir(patient_path):
                     continue
 
-                mlo_path = os.path.join(patient_path, "MLO.png")
+                cc_path = os.path.join(patient_path, "CC.png")
 
-                if os.path.exists(mlo_path):
-                    self.samples.append((mlo_path, label_idx))
+                if os.path.exists(cc_path):
+                    self.samples.append((cc_path, label_idx))
 
-        print(f"Loaded {len(self.samples)} MLO test images from {root_dir}")
+        print(f"Loaded {len(self.samples)} CC test images from {root_dir}")
 
     def __len__(self):
         return len(self.samples)
@@ -144,10 +144,29 @@ class MLOFromPatientFolderDataset(Dataset):
 
 
 # =========================
-# TRANSFORMS — NO AUGMENTATION
+# TRANSFORMS
 # =========================
 
-data_transform = transforms.Compose([
+train_transform = transforms.Compose([
+    transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
+
+    # Safe mammogram augmentations
+    transforms.RandomHorizontalFlip(p=0.5),
+    transforms.RandomRotation(degrees=8),
+    transforms.RandomAffine(
+        degrees=0,
+        translate=(0.04, 0.04),
+        scale=(0.96, 1.04)
+    ),
+
+    transforms.ToTensor(),
+    transforms.Normalize(
+        mean=[0.485, 0.456, 0.406],
+        std=[0.229, 0.224, 0.225]
+    )
+])
+
+eval_transform = transforms.Compose([
     transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
     transforms.ToTensor(),
     transforms.Normalize(
@@ -161,9 +180,9 @@ data_transform = transforms.Compose([
 # MODEL
 # =========================
 
-class MLOResNet18(nn.Module):
+class CCResNet18(nn.Module):
     def __init__(self, num_classes=2):
-        super(MLOResNet18, self).__init__()
+        super(CCResNet18, self).__init__()
 
         self.backbone = models.resnet18(
             weights=models.ResNet18_Weights.IMAGENET1K_V1
@@ -245,7 +264,7 @@ def train_model(model, dataloaders, criterion, optimizer):
 
                     torch.save(
                         model.state_dict(),
-                        os.path.join(RESULTS_DIR, "best_mlo_resnet18_no_aug.pth")
+                        os.path.join(RESULTS_DIR, "best_cc_resnet18_with_aug.pth")
                     )
 
                     print("✅ Best model saved")
@@ -291,7 +310,7 @@ def plot_training_curves(history):
     plt.xlabel("Epoch")
     plt.ylabel("Loss")
     plt.legend()
-    plt.title("MLO ResNet18 Without Augmentation - Loss")
+    plt.title("CC ResNet18 With Augmentation - Loss")
     plt.savefig(os.path.join(RESULTS_DIR, "loss_curve.png"), dpi=300, bbox_inches="tight")
     plt.close()
 
@@ -301,7 +320,7 @@ def plot_training_curves(history):
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy")
     plt.legend()
-    plt.title("MLO ResNet18 Without Augmentation - Accuracy")
+    plt.title("CC ResNet18 With Augmentation - Accuracy")
     plt.savefig(os.path.join(RESULTS_DIR, "accuracy_curve.png"), dpi=300, bbox_inches="tight")
     plt.close()
 
@@ -314,7 +333,7 @@ def save_confusion_matrix(labels, preds):
     )
 
     disp.plot(cmap="Blues")
-    plt.title("Confusion Matrix - MLO ResNet18 Without Augmentation")
+    plt.title("Confusion Matrix - CC ResNet18 With Augmentation")
     plt.savefig(os.path.join(RESULTS_DIR, "confusion_matrix.png"), dpi=300, bbox_inches="tight")
     plt.close()
 
@@ -332,15 +351,15 @@ def main():
     datasets = {
         "train": SingleImageFolderDataset(
             os.path.join(DATA_DIR, "train"),
-            transform=data_transform
+            transform=train_transform
         ),
         "val": SingleImageFolderDataset(
             os.path.join(DATA_DIR, "val"),
-            transform=data_transform
+            transform=eval_transform
         ),
-        "test": MLOFromPatientFolderDataset(
+        "test": CCFromPatientFolderDataset(
             os.path.join(DATA_DIR, "test"),
-            transform=data_transform
+            transform=eval_transform
         )
     }
 
@@ -365,9 +384,9 @@ def main():
         )
     }
 
-    model = MLOResNet18(num_classes=2).to(DEVICE)
+    model = CCResNet18(num_classes=2).to(DEVICE)
 
-    # MLO train is only mildly imbalanced, so no class weights for baseline.
+    # CC train is almost balanced: Benign 242 / Malignant 252
     criterion = nn.CrossEntropyLoss()
 
     optimizer = optim.AdamW(
@@ -401,15 +420,22 @@ def main():
     print(report)
 
     with open(os.path.join(RESULTS_DIR, "classification_report.txt"), "w", encoding="utf-8") as f:
-        f.write("MLO-only ResNet18 Without Augmentation\n")
-        f.write("======================================\n\n")
+        f.write("CC-only ResNet18 With Augmentation\n")
+        f.write("==================================\n\n")
         f.write(f"Seed: {SEED}\n")
         f.write(f"Device: {DEVICE}\n")
         f.write(f"Training time: {training_time:.2f} seconds\n\n")
-        f.write("Test: common CNN_Both/test patient set using MLO.png only\n")
+        f.write("Dataset:\n")
+        f.write("Train: 494 images | Benign: 242 | Malignant: 252\n")
+        f.write("Val: 74 images | Benign: 31 | Malignant: 43\n")
+        f.write("Test: common CNN_Both/test patient set using CC.png only\n")
         f.write("Test: 135 patients | Benign: 76 | Malignant: 59\n\n")
-        f.write("Augmentation: None\n")
-        f.write("Class weights: None\n\n")
+        f.write("Augmentation:\n")
+        f.write("- Horizontal flip\n")
+        f.write("- Small rotation\n")
+        f.write("- Small translation\n")
+        f.write("- Small zoom\n\n")
+        f.write("Class weights: None, train set nearly balanced\n\n")
         f.write(report)
 
     save_confusion_matrix(test_labels, test_preds)

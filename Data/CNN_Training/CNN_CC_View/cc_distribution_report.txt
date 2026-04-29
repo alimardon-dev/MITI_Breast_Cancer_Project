@@ -1,0 +1,35 @@
+CNN_CC_View Distribution Report
+========================================
+
+TRAIN
+--------------------
+Benign: 242
+Malignant: 252
+Total: 494
+Benign Ratio: 0.490
+Malignant Ratio: 0.510
+
+VAL
+--------------------
+Benign: 31
+Malignant: 43
+Total: 74
+Benign Ratio: 0.419
+Malignant Ratio: 0.581
+
+TEST
+--------------------
+Benign: 76
+Malignant: 59
+Total: 135
+Benign Ratio: 0.563
+Malignant Ratio: 0.437
+
+========================================
+OVERALL
+--------------------
+Total Benign: 349
+Total Malignant: 354
+Total Files: 703
+Benign Ratio: 0.496
+Malignant Ratio: 0.504

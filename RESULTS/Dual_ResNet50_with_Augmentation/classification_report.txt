@@ -1,0 +1,32 @@
+Dual ResNet50 With Augmentation
+================================
+
+Seed: 42
+Device: cuda
+Training time: 100.78 seconds
+
+Dataset:
+Train: 378 patients | Benign: 178 | Malignant: 200 | Files: 756
+Val: 95 patients | Benign: 45 | Malignant: 50 | Files: 190
+Test: 135 patients | Benign: 76 | Malignant: 59 | Files: 270
+
+Augmentation:
+- Horizontal flip
+- Small rotation
+- Small translation
+- Small zoom
+- Small shear
+- Random autocontrast
+
+Class weights:
+Benign: 1.06
+Malignant: 0.94
+
+              precision    recall  f1-score   support
+
+      Benign       0.73      0.70      0.71        76
+   Malignant       0.63      0.66      0.64        59
+
+    accuracy                           0.68       135
+   macro avg       0.68      0.68      0.68       135
+weighted avg       0.68      0.68      0.68       135

@@ -1,0 +1,35 @@
+Dataset File Counts
+====================
+
+CNN_Both
+  train:
+    Benign: 320
+    Malignant: 420
+  val:
+    Benign: 118
+    Malignant: 68
+  test:
+    Benign: 152
+    Malignant: 118
+
+CNN_CC_View
+  train:
+    Benign: 242
+    Malignant: 252
+  val:
+    Benign: 31
+    Malignant: 43
+  test:
+    Benign: 94
+    Malignant: 67
+
+CNN_MLO_View
+  train:
+    Benign: 266
+    Malignant: 296
+  val:
+    Benign: 38
+    Malignant: 45
+  test:
+    Benign: 100
+    Malignant: 80

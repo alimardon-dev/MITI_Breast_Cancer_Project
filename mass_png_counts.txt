@@ -1,0 +1,23 @@
+Mass PNG File Counts
+====================
+
+Mass_Test
+---------
+  CC:
+    Benign: 94
+    Malignant: 67
+  MLO:
+    Benign: 100
+    Malignant: 80
+  Total Mass_Test: 341
+
+Mass_Train
+----------
+  CC:
+    Benign: 273
+    Malignant: 295
+  MLO:
+    Benign: 304
+    Malignant: 341
+  Total Mass_Train: 1213
+

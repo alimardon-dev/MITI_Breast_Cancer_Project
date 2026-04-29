@@ -1,0 +1,28 @@
+MLO-only ResNet50 With Augmentation
+===================================
+
+Seed: 42
+Device: cuda
+Training time: 89.49 seconds
+
+Test: common CNN_Both/test patient set using MLO.png only
+Test: 135 patients | Benign: 76 | Malignant: 59
+
+Augmentation:
+- Horizontal flip
+- Small rotation
+- Small translation
+- Small zoom
+- Small shear
+- Random autocontrast
+
+Class weights: None
+
+              precision    recall  f1-score   support
+
+      Benign       0.71      0.80      0.75        76
+   Malignant       0.69      0.58      0.63        59
+
+    accuracy                           0.70       135
+   macro avg       0.70      0.69      0.69       135
+weighted avg       0.70      0.70      0.70       135
