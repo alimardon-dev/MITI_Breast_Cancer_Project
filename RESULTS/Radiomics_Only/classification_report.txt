@@ -1,0 +1,29 @@
+Radiomics-Only Model Results
+============================
+
+Data:
+Train patients: 373
+Validation patients: 95
+Test patients: 135
+
+Initial radiomics feature count: 186
+Best K selected on validation: 3
+Best validation accuracy: 0.5895
+
+Validation tuning results:
+K=3 | Val Accuracy=0.5895
+K=5 | Val Accuracy=0.5895
+K=8 | Val Accuracy=0.5684
+K=10 | Val Accuracy=0.5579
+K=15 | Val Accuracy=0.5895
+K=20 | Val Accuracy=0.5368
+
+TEST REPORT
+              precision    recall  f1-score   support
+
+      Benign       0.64      0.75      0.69        76
+   Malignant       0.59      0.46      0.51        59
+
+    accuracy                           0.62       135
+   macro avg       0.61      0.60      0.60       135
+weighted avg       0.62      0.62      0.61       135

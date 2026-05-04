@@ -1,0 +1,5 @@
+Best K: 3
+
+cc_original_firstorder_Energy
+cc_original_firstorder_TotalEnergy
+cc_original_ngtdm_Busyness
