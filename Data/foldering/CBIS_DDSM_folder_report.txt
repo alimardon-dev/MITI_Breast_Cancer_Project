@@ -1,0 +1,2981 @@
+Scanning: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\Raw\CBIS-DDSM
+================================================================================
+Total folders in CBIS-DDSM        : 6670
+  Mass-Test_P_ folders             : 738
+  Other folders (ignored)          : 5931
+--------------------------------------------------------------------------------
+
+Folder: Mass-Test_P_00016_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-30104
+
+Folder: Mass-Test_P_00016_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-09887
+
+Folder: Mass-Test_P_00016_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-54392
+
+Folder: Mass-Test_P_00016_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-15563
+
+Folder: Mass-Test_P_00017_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-12683
+
+Folder: Mass-Test_P_00017_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-30118
+
+Folder: Mass-Test_P_00017_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89998
+
+Folder: Mass-Test_P_00017_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-27297
+
+Folder: Mass-Test_P_00032_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-31069
+
+Folder: Mass-Test_P_00032_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-50690
+
+Folder: Mass-Test_P_00032_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21963
+
+Folder: Mass-Test_P_00032_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-49655
+
+Folder: Mass-Test_P_00037_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74559
+
+Folder: Mass-Test_P_00037_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38107
+
+Folder: Mass-Test_P_00037_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-48441
+
+Folder: Mass-Test_P_00037_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-62492
+
+Folder: Mass-Test_P_00056_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-50322
+
+Folder: Mass-Test_P_00056_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-07499
+
+Folder: Mass-Test_P_00066_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-12982
+
+Folder: Mass-Test_P_00066_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-63255
+
+Folder: Mass-Test_P_00066_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98300
+
+Folder: Mass-Test_P_00066_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-06852
+
+Folder: Mass-Test_P_00099_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-11792
+
+Folder: Mass-Test_P_00099_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82819
+
+Folder: Mass-Test_P_00114_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-57563
+
+Folder: Mass-Test_P_00114_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-07232
+
+Folder: Mass-Test_P_00116_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73393
+
+Folder: Mass-Test_P_00116_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-28736
+
+Folder: Mass-Test_P_00116_RIGHT_CC_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70426
+
+Folder: Mass-Test_P_00116_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99311
+
+Folder: Mass-Test_P_00116_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-75139
+
+Folder: Mass-Test_P_00116_RIGHT_MLO_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-20113
+
+Folder: Mass-Test_P_00118_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-17337
+
+Folder: Mass-Test_P_00118_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42793
+
+Folder: Mass-Test_P_00118_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-16144
+
+Folder: Mass-Test_P_00118_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-04885
+
+Folder: Mass-Test_P_00124_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81924
+
+Folder: Mass-Test_P_00124_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70389
+
+Folder: Mass-Test_P_00126_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-95488
+
+Folder: Mass-Test_P_00126_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24404
+
+Folder: Mass-Test_P_00126_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14839
+
+Folder: Mass-Test_P_00126_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39281
+
+Folder: Mass-Test_P_00131_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14613
+
+Folder: Mass-Test_P_00131_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32704
+
+Folder: Mass-Test_P_00131_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-46005
+
+Folder: Mass-Test_P_00131_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13477
+
+Folder: Mass-Test_P_00145_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91907
+
+Folder: Mass-Test_P_00145_LEFT_CC_1
+  Subfolders (2):
+    [0 file(s)] 09-27-2017-DDSM-NA-31267
+    [0 file(s)] 10-04-2016-DDSM-NA-90238
+
+Folder: Mass-Test_P_00145_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-06894
+
+Folder: Mass-Test_P_00145_LEFT_MLO_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-02159
+    [0 file(s)] 10-04-2016-DDSM-NA-52166
+
+Folder: Mass-Test_P_00147_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73445
+
+Folder: Mass-Test_P_00147_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-69616
+
+Folder: Mass-Test_P_00147_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87396
+
+Folder: Mass-Test_P_00147_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74640
+
+Folder: Mass-Test_P_00156_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-33044
+
+Folder: Mass-Test_P_00156_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91745
+
+Folder: Mass-Test_P_00158_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-12742
+
+Folder: Mass-Test_P_00158_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89545
+
+Folder: Mass-Test_P_00159_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-26558
+
+Folder: Mass-Test_P_00159_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-26820
+
+Folder: Mass-Test_P_00171_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-41440
+
+Folder: Mass-Test_P_00171_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91479
+
+Folder: Mass-Test_P_00171_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-95797
+
+Folder: Mass-Test_P_00171_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40072
+
+Folder: Mass-Test_P_00173_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-00682
+
+Folder: Mass-Test_P_00173_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-49908
+
+Folder: Mass-Test_P_00173_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98128
+
+Folder: Mass-Test_P_00173_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39035
+
+Folder: Mass-Test_P_00173_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81216
+
+Folder: Mass-Test_P_00173_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82975
+
+Folder: Mass-Test_P_00173_RIGHT_CC_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52988
+
+Folder: Mass-Test_P_00173_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70352
+
+Folder: Mass-Test_P_00173_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89811
+
+Folder: Mass-Test_P_00173_RIGHT_MLO_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-76609
+
+Folder: Mass-Test_P_00177_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-56852
+
+Folder: Mass-Test_P_00177_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-94803
+
+Folder: Mass-Test_P_00177_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-61988
+
+Folder: Mass-Test_P_00177_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39355
+
+Folder: Mass-Test_P_00192_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40063
+
+Folder: Mass-Test_P_00192_RIGHT_CC_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-43116
+    [0 file(s)] 10-04-2016-DDSM-NA-93411
+
+Folder: Mass-Test_P_00194_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52705
+
+Folder: Mass-Test_P_00194_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14034
+
+Folder: Mass-Test_P_00194_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-64001
+
+Folder: Mass-Test_P_00194_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99415
+
+Folder: Mass-Test_P_00198_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-51212
+
+Folder: Mass-Test_P_00198_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40989
+
+Folder: Mass-Test_P_00198_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67253
+
+Folder: Mass-Test_P_00198_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-88695
+
+Folder: Mass-Test_P_00200_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-16066
+
+Folder: Mass-Test_P_00200_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13023
+
+Folder: Mass-Test_P_00200_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-26092
+
+Folder: Mass-Test_P_00200_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13234
+
+Folder: Mass-Test_P_00200_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-95196
+
+Folder: Mass-Test_P_00200_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91781
+
+Folder: Mass-Test_P_00200_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91269
+
+Folder: Mass-Test_P_00200_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-78073
+
+Folder: Mass-Test_P_00202_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-68559
+
+Folder: Mass-Test_P_00202_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-31261
+
+Folder: Mass-Test_P_00202_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67921
+
+Folder: Mass-Test_P_00202_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40704
+
+Folder: Mass-Test_P_00203_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42866
+
+Folder: Mass-Test_P_00203_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-04091
+
+Folder: Mass-Test_P_00203_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-01428
+
+Folder: Mass-Test_P_00203_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53687
+
+Folder: Mass-Test_P_00209_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59659
+
+Folder: Mass-Test_P_00209_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-27186
+
+Folder: Mass-Test_P_00212_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-61874
+
+Folder: Mass-Test_P_00212_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-92529
+
+Folder: Mass-Test_P_00212_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89373
+
+Folder: Mass-Test_P_00212_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24592
+
+Folder: Mass-Test_P_00230_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19979
+
+Folder: Mass-Test_P_00230_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-20732
+
+Folder: Mass-Test_P_00230_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-63965
+
+Folder: Mass-Test_P_00230_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74108
+
+Folder: Mass-Test_P_00238_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-04117
+
+Folder: Mass-Test_P_00238_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19429
+
+Folder: Mass-Test_P_00238_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-75793
+
+Folder: Mass-Test_P_00238_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99057
+
+Folder: Mass-Test_P_00278_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-47081
+
+Folder: Mass-Test_P_00278_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82013
+
+Folder: Mass-Test_P_00278_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-69065
+
+Folder: Mass-Test_P_00278_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-03422
+
+Folder: Mass-Test_P_00296_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-33773
+
+Folder: Mass-Test_P_00296_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82051
+
+Folder: Mass-Test_P_00296_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-37204
+
+Folder: Mass-Test_P_00296_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-11173
+
+Folder: Mass-Test_P_00324_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-96658
+
+Folder: Mass-Test_P_00324_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39119
+
+Folder: Mass-Test_P_00324_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44098
+
+Folder: Mass-Test_P_00324_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-78560
+
+Folder: Mass-Test_P_00340_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-20743
+
+Folder: Mass-Test_P_00340_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-50068
+
+Folder: Mass-Test_P_00343_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32968
+
+Folder: Mass-Test_P_00343_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53705
+
+Folder: Mass-Test_P_00343_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-03922
+
+Folder: Mass-Test_P_00343_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99004
+
+Folder: Mass-Test_P_00343_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-61970
+
+Folder: Mass-Test_P_00343_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-10344
+
+Folder: Mass-Test_P_00343_RIGHT_CC_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-96176
+
+Folder: Mass-Test_P_00343_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52073
+
+Folder: Mass-Test_P_00343_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-25828
+
+Folder: Mass-Test_P_00343_RIGHT_MLO_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32017
+
+Folder: Mass-Test_P_00347_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-12213
+
+Folder: Mass-Test_P_00347_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89084
+
+Folder: Mass-Test_P_00347_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-56228
+
+Folder: Mass-Test_P_00347_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98565
+
+Folder: Mass-Test_P_00358_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-37990
+
+Folder: Mass-Test_P_00358_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-51740
+
+Folder: Mass-Test_P_00358_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83025
+
+Folder: Mass-Test_P_00358_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-12826
+
+Folder: Mass-Test_P_00359_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-04273
+
+Folder: Mass-Test_P_00359_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-15771
+
+Folder: Mass-Test_P_00369_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44063
+
+Folder: Mass-Test_P_00369_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-16593
+
+Folder: Mass-Test_P_00369_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-60288
+
+Folder: Mass-Test_P_00369_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-07979
+
+Folder: Mass-Test_P_00375_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14222
+
+Folder: Mass-Test_P_00375_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38277
+
+Folder: Mass-Test_P_00375_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-05072
+
+Folder: Mass-Test_P_00375_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-80360
+
+Folder: Mass-Test_P_00379_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74266
+
+Folder: Mass-Test_P_00379_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-56757
+
+Folder: Mass-Test_P_00379_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83531
+
+Folder: Mass-Test_P_00379_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32756
+
+Folder: Mass-Test_P_00381_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82168
+
+Folder: Mass-Test_P_00381_LEFT_CC_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-29319
+    [0 file(s)] 10-04-2016-DDSM-NA-78728
+
+Folder: Mass-Test_P_00381_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-10372
+
+Folder: Mass-Test_P_00381_LEFT_MLO_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-32671
+    [0 file(s)] 10-04-2016-DDSM-NA-84629
+
+Folder: Mass-Test_P_00387_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-03792
+
+Folder: Mass-Test_P_00387_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-58686
+
+Folder: Mass-Test_P_00387_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74638
+
+Folder: Mass-Test_P_00387_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-47008
+
+Folder: Mass-Test_P_00391_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14353
+
+Folder: Mass-Test_P_00391_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42590
+
+Folder: Mass-Test_P_00391_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-29158
+
+Folder: Mass-Test_P_00391_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24878
+
+Folder: Mass-Test_P_00391_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67444
+
+Folder: Mass-Test_P_00391_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-04696
+
+Folder: Mass-Test_P_00391_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89558
+
+Folder: Mass-Test_P_00391_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87226
+
+Folder: Mass-Test_P_00394_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-09503
+
+Folder: Mass-Test_P_00394_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-12551
+
+Folder: Mass-Test_P_00405_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-01140
+
+Folder: Mass-Test_P_00405_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-45526
+
+Folder: Mass-Test_P_00405_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-72383
+
+Folder: Mass-Test_P_00405_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-26764
+
+Folder: Mass-Test_P_00409_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14697
+
+Folder: Mass-Test_P_00409_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-75410
+
+Folder: Mass-Test_P_00409_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-02642
+
+Folder: Mass-Test_P_00409_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81468
+
+Folder: Mass-Test_P_00429_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-29605
+
+Folder: Mass-Test_P_00429_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-55089
+
+Folder: Mass-Test_P_00429_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-25882
+
+Folder: Mass-Test_P_00429_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-05169
+
+Folder: Mass-Test_P_00433_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-46676
+
+Folder: Mass-Test_P_00433_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-62554
+
+Folder: Mass-Test_P_00433_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-02559
+
+Folder: Mass-Test_P_00433_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-11454
+
+Folder: Mass-Test_P_00457_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-58224
+
+Folder: Mass-Test_P_00457_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-47396
+
+Folder: Mass-Test_P_00457_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21448
+
+Folder: Mass-Test_P_00457_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-71563
+
+Folder: Mass-Test_P_00464_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91305
+
+Folder: Mass-Test_P_00464_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-37374
+
+Folder: Mass-Test_P_00464_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42588
+
+Folder: Mass-Test_P_00464_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-63209
+
+Folder: Mass-Test_P_00470_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59530
+
+Folder: Mass-Test_P_00470_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42724
+
+Folder: Mass-Test_P_00470_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-18553
+
+Folder: Mass-Test_P_00470_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39785
+
+Folder: Mass-Test_P_00481_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42679
+
+Folder: Mass-Test_P_00481_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-85247
+
+Folder: Mass-Test_P_00481_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32511
+
+Folder: Mass-Test_P_00481_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-88946
+
+Folder: Mass-Test_P_00482_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-92086
+
+Folder: Mass-Test_P_00482_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-09814
+
+Folder: Mass-Test_P_00482_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-51006
+
+Folder: Mass-Test_P_00482_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-51718
+
+Folder: Mass-Test_P_00490_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82206
+
+Folder: Mass-Test_P_00490_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73638
+
+Folder: Mass-Test_P_00490_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-85430
+
+Folder: Mass-Test_P_00490_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40041
+
+Folder: Mass-Test_P_00493_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-08053
+
+Folder: Mass-Test_P_00493_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-62012
+
+Folder: Mass-Test_P_00494_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-07830
+
+Folder: Mass-Test_P_00494_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24153
+
+Folder: Mass-Test_P_00494_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-77786
+
+Folder: Mass-Test_P_00494_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67395
+
+Folder: Mass-Test_P_00498_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21494
+
+Folder: Mass-Test_P_00498_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-68526
+
+Folder: Mass-Test_P_00498_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87265
+
+Folder: Mass-Test_P_00498_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-23406
+
+Folder: Mass-Test_P_00500_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-00552
+
+Folder: Mass-Test_P_00500_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-08865
+
+Folder: Mass-Test_P_00510_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-36085
+
+Folder: Mass-Test_P_00510_LEFT_CC_4
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87152
+
+Folder: Mass-Test_P_00510_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-43734
+
+Folder: Mass-Test_P_00510_LEFT_MLO_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-85495
+
+Folder: Mass-Test_P_00514_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-26687
+
+Folder: Mass-Test_P_00514_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-65073
+
+Folder: Mass-Test_P_00516_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-97493
+
+Folder: Mass-Test_P_00516_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-55301
+
+Folder: Mass-Test_P_00516_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81745
+
+Folder: Mass-Test_P_00516_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89836
+
+Folder: Mass-Test_P_00524_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-94299
+
+Folder: Mass-Test_P_00524_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-56188
+
+Folder: Mass-Test_P_00524_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70880
+
+Folder: Mass-Test_P_00524_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-86491
+
+Folder: Mass-Test_P_00533_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-45627
+
+Folder: Mass-Test_P_00533_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-05751
+
+Folder: Mass-Test_P_00533_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-30544
+
+Folder: Mass-Test_P_00533_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-07841
+
+Folder: Mass-Test_P_00544_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-66082
+
+Folder: Mass-Test_P_00544_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-93949
+
+Folder: Mass-Test_P_00544_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-48178
+
+Folder: Mass-Test_P_00544_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-51447
+
+Folder: Mass-Test_P_00576_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53810
+
+Folder: Mass-Test_P_00576_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-69519
+
+Folder: Mass-Test_P_00576_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83217
+
+Folder: Mass-Test_P_00576_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-71625
+
+Folder: Mass-Test_P_00587_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-57947
+
+Folder: Mass-Test_P_00587_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-60565
+
+Folder: Mass-Test_P_00587_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98522
+
+Folder: Mass-Test_P_00587_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-55024
+
+Folder: Mass-Test_P_00591_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67898
+
+Folder: Mass-Test_P_00591_RIGHT_MLO_3
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-12270
+
+Folder: Mass-Test_P_00598_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-43480
+
+Folder: Mass-Test_P_00598_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-54235
+
+Folder: Mass-Test_P_00598_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99335
+
+Folder: Mass-Test_P_00598_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24607
+
+Folder: Mass-Test_P_00601_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-04891
+
+Folder: Mass-Test_P_00601_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-69719
+
+Folder: Mass-Test_P_00601_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-77684
+
+Folder: Mass-Test_P_00601_LEFT_MLO_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67554
+
+Folder: Mass-Test_P_00612_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-90417
+
+Folder: Mass-Test_P_00612_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99581
+
+Folder: Mass-Test_P_00615_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-51589
+
+Folder: Mass-Test_P_00615_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98870
+
+Folder: Mass-Test_P_00615_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59484
+
+Folder: Mass-Test_P_00615_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24223
+
+Folder: Mass-Test_P_00623_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-27728
+
+Folder: Mass-Test_P_00623_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-79842
+
+Folder: Mass-Test_P_00623_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19757
+
+Folder: Mass-Test_P_00623_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-25043
+
+Folder: Mass-Test_P_00629_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87356
+
+Folder: Mass-Test_P_00629_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-62191
+
+Folder: Mass-Test_P_00629_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13491
+
+Folder: Mass-Test_P_00629_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-36542
+
+Folder: Mass-Test_P_00636_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59978
+
+Folder: Mass-Test_P_00636_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-51432
+
+Folder: Mass-Test_P_00636_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-68646
+
+Folder: Mass-Test_P_00636_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-01430
+
+Folder: Mass-Test_P_00639_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52529
+
+Folder: Mass-Test_P_00639_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82359
+
+Folder: Mass-Test_P_00641_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-76887
+
+Folder: Mass-Test_P_00641_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-10462
+
+Folder: Mass-Test_P_00641_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-18396
+
+Folder: Mass-Test_P_00641_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-01158
+
+Folder: Mass-Test_P_00652_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87823
+
+Folder: Mass-Test_P_00652_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40507
+
+Folder: Mass-Test_P_00656_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-57417
+
+Folder: Mass-Test_P_00656_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98010
+
+Folder: Mass-Test_P_00662_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-45570
+
+Folder: Mass-Test_P_00662_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40357
+
+Folder: Mass-Test_P_00662_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-34648
+
+Folder: Mass-Test_P_00662_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-17886
+
+Folder: Mass-Test_P_00671_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-34610
+
+Folder: Mass-Test_P_00671_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-51113
+
+Folder: Mass-Test_P_00671_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98976
+
+Folder: Mass-Test_P_00671_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59464
+
+Folder: Mass-Test_P_00677_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91074
+
+Folder: Mass-Test_P_00677_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-49444
+
+Folder: Mass-Test_P_00677_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38217
+
+Folder: Mass-Test_P_00677_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59856
+
+Folder: Mass-Test_P_00699_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-48625
+
+Folder: Mass-Test_P_00699_RIGHT_CC_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-05854
+    [0 file(s)] 10-04-2016-DDSM-NA-65992
+
+Folder: Mass-Test_P_00699_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-26533
+
+Folder: Mass-Test_P_00699_RIGHT_MLO_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-05979
+    [0 file(s)] 10-04-2016-DDSM-NA-83432
+
+Folder: Mass-Test_P_00707_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-62654
+
+Folder: Mass-Test_P_00707_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-20637
+
+Folder: Mass-Test_P_00707_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-96961
+
+Folder: Mass-Test_P_00707_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-12284
+
+Folder: Mass-Test_P_00718_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-79243
+
+Folder: Mass-Test_P_00718_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99571
+
+Folder: Mass-Test_P_00738_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53345
+
+Folder: Mass-Test_P_00738_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-94299
+
+Folder: Mass-Test_P_00738_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83311
+
+Folder: Mass-Test_P_00738_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-36770
+
+Folder: Mass-Test_P_00741_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-56533
+
+Folder: Mass-Test_P_00741_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-11074
+
+Folder: Mass-Test_P_00741_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98190
+
+Folder: Mass-Test_P_00741_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-10687
+
+Folder: Mass-Test_P_00758_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-96045
+
+Folder: Mass-Test_P_00758_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-75773
+
+Folder: Mass-Test_P_00758_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99016
+
+Folder: Mass-Test_P_00758_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-85381
+
+Folder: Mass-Test_P_00766_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53012
+
+Folder: Mass-Test_P_00766_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-18099
+
+Folder: Mass-Test_P_00766_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-95558
+
+Folder: Mass-Test_P_00766_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87951
+
+Folder: Mass-Test_P_00773_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87920
+
+Folder: Mass-Test_P_00773_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-41336
+
+Folder: Mass-Test_P_00773_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38819
+
+Folder: Mass-Test_P_00773_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19448
+
+Folder: Mass-Test_P_00788_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-09320
+
+Folder: Mass-Test_P_00788_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-22211
+
+Folder: Mass-Test_P_00813_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-00310
+
+Folder: Mass-Test_P_00813_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-68103
+
+Folder: Mass-Test_P_00820_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-84891
+
+Folder: Mass-Test_P_00820_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-66880
+
+Folder: Mass-Test_P_00820_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91262
+
+Folder: Mass-Test_P_00820_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-47362
+
+Folder: Mass-Test_P_00820_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13454
+
+Folder: Mass-Test_P_00820_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70910
+
+Folder: Mass-Test_P_00820_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83638
+
+Folder: Mass-Test_P_00820_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-35354
+
+Folder: Mass-Test_P_00837_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-96683
+
+Folder: Mass-Test_P_00837_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-46873
+
+Folder: Mass-Test_P_00837_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99035
+
+Folder: Mass-Test_P_00837_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21245
+
+Folder: Mass-Test_P_00875_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-43376
+
+Folder: Mass-Test_P_00875_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-16053
+
+Folder: Mass-Test_P_00875_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-18972
+
+Folder: Mass-Test_P_00875_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-29744
+
+Folder: Mass-Test_P_00882_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-29926
+
+Folder: Mass-Test_P_00882_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-93416
+
+Folder: Mass-Test_P_00882_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39106
+
+Folder: Mass-Test_P_00882_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67134
+
+Folder: Mass-Test_P_00893_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-00228
+
+Folder: Mass-Test_P_00893_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-97466
+
+Folder: Mass-Test_P_00893_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-65417
+
+Folder: Mass-Test_P_00893_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-27642
+
+Folder: Mass-Test_P_00922_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-49285
+
+Folder: Mass-Test_P_00922_RIGHT_CC_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-38722
+    [0 file(s)] 10-04-2016-DDSM-NA-70160
+
+Folder: Mass-Test_P_00922_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52623
+
+Folder: Mass-Test_P_00922_RIGHT_MLO_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-30078
+    [0 file(s)] 10-04-2016-DDSM-NA-72067
+
+Folder: Mass-Test_P_00924_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-84780
+
+Folder: Mass-Test_P_00924_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-86400
+
+Folder: Mass-Test_P_00928_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-15795
+
+Folder: Mass-Test_P_00928_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19299
+
+Folder: Mass-Test_P_00928_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53061
+
+Folder: Mass-Test_P_00928_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-17835
+
+Folder: Mass-Test_P_00928_RIGHT_MLO_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-07570
+
+Folder: Mass-Test_P_00932_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-48675
+
+Folder: Mass-Test_P_00932_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-43767
+
+Folder: Mass-Test_P_00942_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-57318
+
+Folder: Mass-Test_P_00942_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89649
+
+Folder: Mass-Test_P_00947_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83286
+
+Folder: Mass-Test_P_00947_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73416
+
+Folder: Mass-Test_P_00947_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87399
+
+Folder: Mass-Test_P_00947_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-34137
+
+Folder: Mass-Test_P_00951_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-55797
+
+Folder: Mass-Test_P_00951_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-18992
+
+Folder: Mass-Test_P_00951_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-41467
+
+Folder: Mass-Test_P_00951_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-16549
+
+Folder: Mass-Test_P_00951_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87232
+
+Folder: Mass-Test_P_00951_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81724
+
+Folder: Mass-Test_P_00962_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-41482
+
+Folder: Mass-Test_P_00962_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-05571
+
+Folder: Mass-Test_P_00962_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-30065
+
+Folder: Mass-Test_P_00962_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21928
+
+Folder: Mass-Test_P_00966_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-71125
+
+Folder: Mass-Test_P_00966_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38686
+
+Folder: Mass-Test_P_00969_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-06229
+
+Folder: Mass-Test_P_00969_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-03704
+
+Folder: Mass-Test_P_00969_LEFT_CC_3
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42447
+
+Folder: Mass-Test_P_00969_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-09326
+
+Folder: Mass-Test_P_00969_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52897
+
+Folder: Mass-Test_P_00969_LEFT_MLO_4
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87499
+
+Folder: Mass-Test_P_00979_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-75064
+
+Folder: Mass-Test_P_00979_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40849
+
+Folder: Mass-Test_P_00979_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-71881
+
+Folder: Mass-Test_P_00979_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73204
+
+Folder: Mass-Test_P_00980_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21058
+
+Folder: Mass-Test_P_00980_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-05751
+
+Folder: Mass-Test_P_00980_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39500
+
+Folder: Mass-Test_P_00980_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-36996
+
+Folder: Mass-Test_P_00985_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98556
+
+Folder: Mass-Test_P_00985_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89183
+
+Folder: Mass-Test_P_00985_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21571
+
+Folder: Mass-Test_P_00985_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-62776
+
+Folder: Mass-Test_P_00986_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89020
+
+Folder: Mass-Test_P_00986_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-04932
+
+Folder: Mass-Test_P_00987_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73932
+
+Folder: Mass-Test_P_00987_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-37429
+
+Folder: Mass-Test_P_00987_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-35269
+
+Folder: Mass-Test_P_00987_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44052
+
+Folder: Mass-Test_P_01014_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-25222
+
+Folder: Mass-Test_P_01014_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-37119
+
+Folder: Mass-Test_P_01014_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-06666
+
+Folder: Mass-Test_P_01014_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32199
+
+Folder: Mass-Test_P_01044_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13020
+
+Folder: Mass-Test_P_01044_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-66947
+
+Folder: Mass-Test_P_01068_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-99782
+
+Folder: Mass-Test_P_01068_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-47092
+
+Folder: Mass-Test_P_01090_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-56206
+
+Folder: Mass-Test_P_01090_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-17971
+
+Folder: Mass-Test_P_01090_LEFT_CC_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89959
+
+Folder: Mass-Test_P_01090_LEFT_CC_3
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-92113
+
+Folder: Mass-Test_P_01090_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-64904
+
+Folder: Mass-Test_P_01090_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-11537
+
+Folder: Mass-Test_P_01090_LEFT_MLO_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-80583
+
+Folder: Mass-Test_P_01090_LEFT_MLO_3
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53414
+
+Folder: Mass-Test_P_01090_LEFT_MLO_4
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-09295
+
+Folder: Mass-Test_P_01090_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83485
+
+Folder: Mass-Test_P_01090_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81445
+
+Folder: Mass-Test_P_01101_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-61939
+
+Folder: Mass-Test_P_01101_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-61165
+
+Folder: Mass-Test_P_01106_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-75803
+
+Folder: Mass-Test_P_01106_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-57693
+
+Folder: Mass-Test_P_01108_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-68980
+
+Folder: Mass-Test_P_01108_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-28011
+
+Folder: Mass-Test_P_01108_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74660
+
+Folder: Mass-Test_P_01108_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-50124
+
+Folder: Mass-Test_P_01110_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-84293
+
+Folder: Mass-Test_P_01110_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-30209
+
+Folder: Mass-Test_P_01114_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24425
+
+Folder: Mass-Test_P_01114_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-03274
+
+Folder: Mass-Test_P_01119_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-61225
+
+Folder: Mass-Test_P_01119_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38591
+
+Folder: Mass-Test_P_01119_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-33678
+
+Folder: Mass-Test_P_01119_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-85843
+
+Folder: Mass-Test_P_01140_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-64520
+
+Folder: Mass-Test_P_01140_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-45821
+
+Folder: Mass-Test_P_01140_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-72359
+
+Folder: Mass-Test_P_01140_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74776
+
+Folder: Mass-Test_P_01145_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-30130
+
+Folder: Mass-Test_P_01145_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91704
+
+Folder: Mass-Test_P_01167_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-09320
+
+Folder: Mass-Test_P_01183_LEFT_CC
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-02655
+    [0 file(s)] Mass-Test_P_01167_LEFT_MLO
+
+Folder: Mass-Test_P_01183_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-25201
+
+Folder: Mass-Test_P_01183_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-15664
+
+Folder: Mass-Test_P_01183_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-61313
+
+Folder: Mass-Test_P_01187_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44754
+
+Folder: Mass-Test_P_01187_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-86828
+
+Folder: Mass-Test_P_01192_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32519
+
+Folder: Mass-Test_P_01192_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-12539
+
+Folder: Mass-Test_P_01192_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83420
+
+Folder: Mass-Test_P_01192_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-09340
+
+Folder: Mass-Test_P_01204_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44813
+
+Folder: Mass-Test_P_01204_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-11234
+
+Folder: Mass-Test_P_01204_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-84294
+
+Folder: Mass-Test_P_01204_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-29489
+
+Folder: Mass-Test_P_01210_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-06629
+
+Folder: Mass-Test_P_01210_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83441
+
+Folder: Mass-Test_P_01213_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14301
+
+Folder: Mass-Test_P_01213_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-23002
+
+Folder: Mass-Test_P_01213_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44538
+
+Folder: Mass-Test_P_01213_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-43577
+
+Folder: Mass-Test_P_01235_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-06321
+
+Folder: Mass-Test_P_01235_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-68813
+
+Folder: Mass-Test_P_01251_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-25244
+
+Folder: Mass-Test_P_01251_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-65128
+
+Folder: Mass-Test_P_01251_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21846
+
+Folder: Mass-Test_P_01251_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81101
+
+Folder: Mass-Test_P_01254_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-75569
+
+Folder: Mass-Test_P_01254_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82019
+
+Folder: Mass-Test_P_01254_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-72614
+
+Folder: Mass-Test_P_01254_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81350
+
+Folder: Mass-Test_P_01257_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44562
+
+Folder: Mass-Test_P_01257_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-11399
+
+Folder: Mass-Test_P_01257_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19479
+
+Folder: Mass-Test_P_01257_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98509
+
+Folder: Mass-Test_P_01277_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-71748
+
+Folder: Mass-Test_P_01277_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-07198
+
+Folder: Mass-Test_P_01277_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-94268
+
+Folder: Mass-Test_P_01277_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-10952
+
+Folder: Mass-Test_P_01294_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19389
+
+Folder: Mass-Test_P_01294_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-79661
+
+Folder: Mass-Test_P_01294_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-26365
+
+Folder: Mass-Test_P_01294_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-18429
+
+Folder: Mass-Test_P_01298_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-28219
+
+Folder: Mass-Test_P_01298_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73862
+
+Folder: Mass-Test_P_01298_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-63356
+
+Folder: Mass-Test_P_01298_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13951
+
+Folder: Mass-Test_P_01307_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70425
+
+Folder: Mass-Test_P_01307_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-95650
+
+Folder: Mass-Test_P_01307_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-48940
+
+Folder: Mass-Test_P_01307_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53335
+
+Folder: Mass-Test_P_01316_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-83611
+
+Folder: Mass-Test_P_01316_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32768
+
+Folder: Mass-Test_P_01316_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-31325
+
+Folder: Mass-Test_P_01316_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-66517
+
+Folder: Mass-Test_P_01322_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-17243
+
+Folder: Mass-Test_P_01322_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52120
+
+Folder: Mass-Test_P_01322_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42383
+
+Folder: Mass-Test_P_01322_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-23299
+
+Folder: Mass-Test_P_01323_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-33771
+
+Folder: Mass-Test_P_01323_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21148
+
+Folder: Mass-Test_P_01323_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-65000
+
+Folder: Mass-Test_P_01323_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-56078
+
+Folder: Mass-Test_P_01331_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-28018
+
+Folder: Mass-Test_P_01331_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98831
+
+Folder: Mass-Test_P_01331_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-88038
+
+Folder: Mass-Test_P_01331_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-00702
+
+Folder: Mass-Test_P_01333_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70888
+
+Folder: Mass-Test_P_01333_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44085
+
+Folder: Mass-Test_P_01333_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-68854
+
+Folder: Mass-Test_P_01333_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-60457
+
+Folder: Mass-Test_P_01347_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-43919
+
+Folder: Mass-Test_P_01347_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-41083
+
+Folder: Mass-Test_P_01347_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-88061
+
+Folder: Mass-Test_P_01347_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19232
+
+Folder: Mass-Test_P_01348_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59725
+
+Folder: Mass-Test_P_01348_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19544
+
+Folder: Mass-Test_P_01351_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44072
+
+Folder: Mass-Test_P_01351_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-28265
+
+Folder: Mass-Test_P_01365_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38001
+
+Folder: Mass-Test_P_01365_LEFT_CC_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14356
+
+Folder: Mass-Test_P_01378_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-25768
+
+Folder: Mass-Test_P_01378_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-58044
+
+Folder: Mass-Test_P_01378_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-51756
+
+Folder: Mass-Test_P_01378_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-33728
+
+Folder: Mass-Test_P_01378_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-86303
+
+Folder: Mass-Test_P_01378_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-78441
+
+Folder: Mass-Test_P_01381_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38063
+
+Folder: Mass-Test_P_01381_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-01095
+
+Folder: Mass-Test_P_01381_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-18288
+
+Folder: Mass-Test_P_01381_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-90833
+
+Folder: Mass-Test_P_01395_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-78421
+
+Folder: Mass-Test_P_01395_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-15700
+
+Folder: Mass-Test_P_01395_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-10885
+
+Folder: Mass-Test_P_01395_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39339
+
+Folder: Mass-Test_P_01416_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-62366
+
+Folder: Mass-Test_P_01416_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73444
+
+Folder: Mass-Test_P_01416_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40579
+
+Folder: Mass-Test_P_01416_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91699
+
+Folder: Mass-Test_P_01467_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-08687
+
+Folder: Mass-Test_P_01467_RIGHT_CC_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-68238
+
+Folder: Mass-Test_P_01477_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52179
+
+Folder: Mass-Test_P_01477_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70870
+
+Folder: Mass-Test_P_01489_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-60525
+
+Folder: Mass-Test_P_01489_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-85644
+
+Folder: Mass-Test_P_01502_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52855
+
+Folder: Mass-Test_P_01502_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74201
+
+Folder: Mass-Test_P_01502_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19089
+
+Folder: Mass-Test_P_01502_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-11530
+
+Folder: Mass-Test_P_01510_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98664
+
+Folder: Mass-Test_P_01510_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-08028
+
+Folder: Mass-Test_P_01510_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-22076
+
+Folder: Mass-Test_P_01510_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-95505
+
+Folder: Mass-Test_P_01512_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70342
+
+Folder: Mass-Test_P_01512_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-36056
+
+Folder: Mass-Test_P_01512_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-86103
+
+Folder: Mass-Test_P_01512_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-03862
+
+Folder: Mass-Test_P_01518_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-54152
+
+Folder: Mass-Test_P_01518_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14442
+
+Folder: Mass-Test_P_01518_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-78299
+
+Folder: Mass-Test_P_01518_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39255
+
+Folder: Mass-Test_P_01534_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-10418
+
+Folder: Mass-Test_P_01534_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-36695
+
+Folder: Mass-Test_P_01534_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67541
+
+Folder: Mass-Test_P_01534_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24706
+
+Folder: Mass-Test_P_01539_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24857
+
+Folder: Mass-Test_P_01539_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59031
+
+Folder: Mass-Test_P_01539_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-45842
+
+Folder: Mass-Test_P_01539_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32570
+
+Folder: Mass-Test_P_01546_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42446
+
+Folder: Mass-Test_P_01546_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82539
+
+Folder: Mass-Test_P_01546_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13398
+
+Folder: Mass-Test_P_01546_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-47619
+
+Folder: Mass-Test_P_01551_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81868
+
+Folder: Mass-Test_P_01551_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-54228
+
+Folder: Mass-Test_P_01551_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-27641
+
+Folder: Mass-Test_P_01551_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-37267
+
+Folder: Mass-Test_P_01558_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-54510
+
+Folder: Mass-Test_P_01558_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-27401
+
+Folder: Mass-Test_P_01558_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-62981
+
+Folder: Mass-Test_P_01558_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-84958
+
+Folder: Mass-Test_P_01566_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-68501
+
+Folder: Mass-Test_P_01566_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-65810
+
+Folder: Mass-Test_P_01566_RIGHT_CC_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-96628
+
+Folder: Mass-Test_P_01566_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19882
+
+Folder: Mass-Test_P_01566_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42694
+
+Folder: Mass-Test_P_01566_RIGHT_MLO_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81327
+
+Folder: Mass-Test_P_01566_RIGHT_MLO_3
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13479
+
+Folder: Mass-Test_P_01578_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38943
+
+Folder: Mass-Test_P_01578_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-17087
+
+Folder: Mass-Test_P_01590_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53430
+
+Folder: Mass-Test_P_01590_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67813
+
+Folder: Mass-Test_P_01590_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44615
+
+Folder: Mass-Test_P_01590_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52079
+
+Folder: Mass-Test_P_01595_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-80440
+
+Folder: Mass-Test_P_01595_LEFT_CC_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-42023
+    [0 file(s)] 10-04-2016-DDSM-NA-59071
+
+Folder: Mass-Test_P_01595_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59209
+
+Folder: Mass-Test_P_01595_LEFT_MLO_1
+  Subfolders (2):
+    [0 file(s)] 10-04-2016-DDSM-NA-00195
+    [0 file(s)] 10-04-2016-DDSM-NA-57648
+
+Folder: Mass-Test_P_01599_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98552
+
+Folder: Mass-Test_P_01599_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-71371
+
+Folder: Mass-Test_P_01599_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-81893
+
+Folder: Mass-Test_P_01599_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70634
+
+Folder: Mass-Test_P_01605_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-96917
+
+Folder: Mass-Test_P_01605_LEFT_CC_2
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-45743
+
+Folder: Mass-Test_P_01614_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-52303
+
+Folder: Mass-Test_P_01614_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 09-27-2017-DDSM-NA-27640
+
+Folder: Mass-Test_P_01617_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14002
+
+Folder: Mass-Test_P_01617_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-89974
+
+Folder: Mass-Test_P_01617_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-23651
+
+Folder: Mass-Test_P_01617_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-00624
+
+Folder: Mass-Test_P_01623_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-85333
+
+Folder: Mass-Test_P_01623_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-19428
+
+Folder: Mass-Test_P_01623_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-78818
+
+Folder: Mass-Test_P_01623_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91765
+
+Folder: Mass-Test_P_01640_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-50810
+
+Folder: Mass-Test_P_01640_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-47922
+
+Folder: Mass-Test_P_01645_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-03970
+
+Folder: Mass-Test_P_01645_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-32498
+
+Folder: Mass-Test_P_01651_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-31902
+
+Folder: Mass-Test_P_01651_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-86933
+
+Folder: Mass-Test_P_01651_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-94349
+
+Folder: Mass-Test_P_01651_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-46820
+
+Folder: Mass-Test_P_01661_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21000
+
+Folder: Mass-Test_P_01661_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-46625
+
+Folder: Mass-Test_P_01661_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-41323
+
+Folder: Mass-Test_P_01661_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-21081
+
+Folder: Mass-Test_P_01666_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-63904
+
+Folder: Mass-Test_P_01666_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-92575
+
+Folder: Mass-Test_P_01666_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-56984
+
+Folder: Mass-Test_P_01666_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-58891
+
+Folder: Mass-Test_P_01673_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-45113
+
+Folder: Mass-Test_P_01673_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-02743
+
+Folder: Mass-Test_P_01673_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-71523
+
+Folder: Mass-Test_P_01673_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-97502
+
+Folder: Mass-Test_P_01677_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91270
+
+Folder: Mass-Test_P_01677_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-36419
+
+Folder: Mass-Test_P_01684_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-22519
+
+Folder: Mass-Test_P_01684_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-22398
+
+Folder: Mass-Test_P_01684_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-35224
+
+Folder: Mass-Test_P_01684_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-93459
+
+Folder: Mass-Test_P_01690_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-01619
+
+Folder: Mass-Test_P_01690_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-97726
+
+Folder: Mass-Test_P_01690_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73714
+
+Folder: Mass-Test_P_01690_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-86283
+
+Folder: Mass-Test_P_01697_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-67490
+
+Folder: Mass-Test_P_01697_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74237
+
+Folder: Mass-Test_P_01697_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-03913
+
+Folder: Mass-Test_P_01697_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-43351
+
+Folder: Mass-Test_P_01716_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-14744
+
+Folder: Mass-Test_P_01716_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-04456
+
+Folder: Mass-Test_P_01716_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-88965
+
+Folder: Mass-Test_P_01716_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-91354
+
+Folder: Mass-Test_P_01719_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-18150
+
+Folder: Mass-Test_P_01719_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-90391
+
+Folder: Mass-Test_P_01719_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-74555
+
+Folder: Mass-Test_P_01719_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-63036
+
+Folder: Mass-Test_P_01726_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24693
+
+Folder: Mass-Test_P_01726_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-40209
+
+Folder: Mass-Test_P_01726_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-50717
+
+Folder: Mass-Test_P_01726_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-92926
+
+Folder: Mass-Test_P_01741_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-73332
+
+Folder: Mass-Test_P_01741_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-29454
+
+Folder: Mass-Test_P_01741_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42679
+
+Folder: Mass-Test_P_01741_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-46170
+
+Folder: Mass-Test_P_01765_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13436
+
+Folder: Mass-Test_P_01765_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-87731
+
+Folder: Mass-Test_P_01765_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-77721
+
+Folder: Mass-Test_P_01765_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-35107
+
+Folder: Mass-Test_P_01778_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-24957
+
+Folder: Mass-Test_P_01778_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82357
+
+Folder: Mass-Test_P_01787_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-98252
+
+Folder: Mass-Test_P_01787_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38254
+
+Folder: Mass-Test_P_01787_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-11033
+
+Folder: Mass-Test_P_01787_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-44967
+
+Folder: Mass-Test_P_01795_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-64481
+
+Folder: Mass-Test_P_01795_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-94251
+
+Folder: Mass-Test_P_01795_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-69984
+
+Folder: Mass-Test_P_01795_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-35392
+
+Folder: Mass-Test_P_01796_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-55470
+
+Folder: Mass-Test_P_01796_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-57281
+
+Folder: Mass-Test_P_01796_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70255
+
+Folder: Mass-Test_P_01796_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-35864
+
+Folder: Mass-Test_P_01797_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-45096
+
+Folder: Mass-Test_P_01797_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-65399
+
+Folder: Mass-Test_P_01797_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-41593
+
+Folder: Mass-Test_P_01797_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-78337
+
+Folder: Mass-Test_P_01800_LEFT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-60462
+
+Folder: Mass-Test_P_01800_LEFT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-16989
+
+Folder: Mass-Test_P_01800_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-38950
+
+Folder: Mass-Test_P_01800_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-53990
+
+Folder: Mass-Test_P_01800_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-54158
+
+Folder: Mass-Test_P_01800_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-71187
+
+Folder: Mass-Test_P_01807_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-00823
+
+Folder: Mass-Test_P_01807_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-25273
+
+Folder: Mass-Test_P_01815_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-30772
+
+Folder: Mass-Test_P_01815_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-42934
+
+Folder: Mass-Test_P_01815_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-77765
+
+Folder: Mass-Test_P_01815_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-39142
+
+Folder: Mass-Test_P_01825_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-79035
+
+Folder: Mass-Test_P_01825_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-13931
+
+Folder: Mass-Test_P_01825_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82843
+
+Folder: Mass-Test_P_01825_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-02779
+
+Folder: Mass-Test_P_01833_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-82884
+
+Folder: Mass-Test_P_01833_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-70652
+
+Folder: Mass-Test_P_01865_LEFT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-94616
+
+Folder: Mass-Test_P_01865_LEFT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-30419
+
+Folder: Mass-Test_P_01912_RIGHT_CC
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-59644
+
+Folder: Mass-Test_P_01912_RIGHT_CC_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-61275
+
+Folder: Mass-Test_P_01912_RIGHT_MLO
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-46673
+
+Folder: Mass-Test_P_01912_RIGHT_MLO_1
+  Subfolders (1):
+    [0 file(s)] 10-04-2016-DDSM-NA-41042
+
+================================================================================
+SUMMARY
+  Mass-Test_P_ top-level folders   : 738
+  Other folders (ignored)          : 5931
+  Total date subfolders            : 750
+    Folders with 0 subfolders      : 0
+    Folders with 1 subfolder       : 726
+    Folders with 2+ subfolders     : 12
+  Total files (all .dcm etc.)      : 0
+================================================================================

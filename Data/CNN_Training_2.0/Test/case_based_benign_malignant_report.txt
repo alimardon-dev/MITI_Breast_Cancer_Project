@@ -1,0 +1,526 @@
+CASE-BASED MASS TEST BENIGN/MALIGNANT ABNORMALITY DISTRIBUTION REPORT
+================================================================================
+
+Source folder:
+C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\Raw\CBIS-DDSM
+
+CSV file:
+C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\Raw\CSV files\mass_case_description_test_set.csv
+
+Output folder:
+C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant
+
+Filtering rule:
+Only pathology BENIGN and MALIGNANT are included.
+BENIGN_WITHOUT_CALLBACK is excluded.
+
+Abnormality counting rule:
+One abnormality = patient_id + side + abnormality_id + pathology.
+
+Grouping rule:
+DICOM cases are grouped by patient_id + side + abnormality_id + pathology.
+
+DICOM rule:
+ROI mask image folders are used as anchors for discovery.
+Cropped image source depends on folder pattern:
+  Pattern #1 (normal): ROI mask images/ has 2 files.
+    -> 1-1.dcm = cropped image  |  1-2.dcm = mask
+    -> source: ROI mask images/1-1.dcm
+  Pattern #3/#4 (103 cases): sibling 'cropped images/' folder exists.
+    -> 1-1.dcm in 'cropped images/' is the real crop
+    -> 1-1.dcm in 'ROI mask images/' is the mask (skipped)
+    -> source: cropped images/1-1.dcm
+In both cases the file used is named: 1-1.dcm
+
+------------------------------------------
+CSV COUNTS AFTER FILTERING
+------------------------------------------
+CSV image rows after BENIGN/MALIGNANT filtering: 341
+CSV unique abnormalities after BENIGN/MALIGNANT filtering: 199
+
+CSV image row counts by pathology:
+  BENIGN: 194
+  MALIGNANT: 147
+
+CSV unique abnormality counts by pathology:
+  BENIGN: 112
+  MALIGNANT: 87
+
+------------------------------------------
+ABNORMALITY COUNTS BY OUTPUT FOLDER
+------------------------------------------
+
+BENIGN:
+  Both_CC_MLO:
+    Abnormalities: 82
+    PNG files: 164
+  CC_Missing:
+    Abnormalities: 18
+    PNG files: 18
+  MLO_Missing:
+    Abnormalities: 12
+    PNG files: 12
+  Unknown:
+    Abnormalities: 0
+    PNG files: 0
+
+MALIGNANT:
+  Both_CC_MLO:
+    Abnormalities: 60
+    PNG files: 120
+  CC_Missing:
+    Abnormalities: 20
+    PNG files: 20
+  MLO_Missing:
+    Abnormalities: 7
+    PNG files: 7
+  Unknown:
+    Abnormalities: 0
+    PNG files: 0
+
+------------------------------------------
+TOTAL ABNORMALITY COUNTS FROM DICOM OUTPUT
+------------------------------------------
+Total Both_CC_MLO abnormalities: 142
+Total CC_Missing abnormalities: 38
+Total MLO_Missing abnormalities: 19
+Total Unknown abnormalities: 0
+Total DICOM/output abnormalities: 199
+Total PNG files created: 341
+Skipped DICOM files without BENIGN/MALIGNANT CSV match: 37
+
+------------------------------------------
+CSV VS DICOM/OUTPUT ABNORMALITY COMPARISON
+------------------------------------------
+CSV unique abnormalities: 199
+DICOM/output unique abnormalities: 199
+Difference CSV - DICOM/output: 0
+
+BENIGN:
+  CSV unique abnormalities: 112
+  DICOM/output abnormalities: 112
+  Difference: 0
+
+MALIGNANT:
+  CSV unique abnormalities: 87
+  DICOM/output abnormalities: 87
+  Difference: 0
+
+------------------------------------------
+SAVED CSV REPORTS
+------------------------------------------
+Abnormality summary CSV:
+C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\abnormality_counts_by_folder.csv
+
+Abnormality details CSV:
+C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\abnormality_details_by_folder.csv
+
+------------------------------------------
+PROBLEM CASES DETAILS
+------------------------------------------
+
+Case: P_00056_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00056_LEFT_MLO_1
+
+Case: P_00099_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00099_LEFT_MLO_1
+
+Case: P_00124_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_00124_RIGHT_CC_1
+MLO files: 0
+
+Case: P_00156_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00156_RIGHT_MLO_1
+
+Case: P_00192_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_00192_RIGHT_CC_1
+MLO files: 0
+
+Case: P_00209_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00209_LEFT_MLO_1
+
+Case: P_00340_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_00340_LEFT_CC_1
+MLO files: 0
+
+Case: P_00359_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00359_LEFT_MLO_1
+
+Case: P_00493_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_00493_RIGHT_CC_1
+MLO files: 0
+
+Case: P_00500_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00500_RIGHT_MLO_1
+
+Case: P_00514_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00514_LEFT_MLO_1
+
+Case: P_00591_RIGHT_CASE_3_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00591_RIGHT_MLO_3
+
+Case: P_00601_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_00601_LEFT_CC_1
+MLO files: 0
+
+Case: P_00601_LEFT_CASE_2_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00601_LEFT_MLO_2
+
+Case: P_00639_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00639_LEFT_MLO_1
+
+Case: P_00652_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_00652_LEFT_CC_1
+MLO files: 0
+
+Case: P_00656_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00656_RIGHT_MLO_1
+
+Case: P_00718_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00718_RIGHT_MLO_1
+
+Case: P_00788_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00788_RIGHT_MLO_1
+
+Case: P_00813_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00813_RIGHT_MLO_1
+
+Case: P_00932_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00932_LEFT_MLO_1
+
+Case: P_00942_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_00942_LEFT_CC_1
+MLO files: 0
+
+Case: P_00969_LEFT_CASE_3_MALIGNANT
+Pathology: MALIGNANT
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_00969_LEFT_CC_3
+MLO files: 0
+
+Case: P_00969_LEFT_CASE_4_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00969_LEFT_MLO_4
+
+Case: P_00986_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_00986_LEFT_MLO_1
+
+Case: P_01044_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01044_LEFT_MLO_1
+
+Case: P_01068_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01068_RIGHT_MLO_1
+
+Case: P_01090_LEFT_CASE_4_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01090_LEFT_MLO_4
+
+Case: P_01090_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01090_RIGHT_MLO_1
+
+Case: P_01101_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01101_LEFT_CC_1
+MLO files: 0
+
+Case: P_01106_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01106_LEFT_MLO_1
+
+Case: P_01110_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01110_RIGHT_CC_1
+MLO files: 0
+
+Case: P_01114_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01114_RIGHT_MLO_1
+
+Case: P_01167_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01167_LEFT_MLO_1
+
+Case: P_01187_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01187_LEFT_MLO_1
+
+Case: P_01210_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01210_RIGHT_MLO_1
+
+Case: P_01235_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01235_RIGHT_MLO_1
+
+Case: P_01348_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01348_LEFT_MLO_1
+
+Case: P_01351_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01351_LEFT_CC_1
+MLO files: 0
+
+Case: P_01378_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01378_LEFT_CC_1
+MLO files: 0
+
+Case: P_01467_RIGHT_CASE_2_MALIGNANT
+Pathology: MALIGNANT
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01467_RIGHT_CC_2
+MLO files: 0
+
+Case: P_01477_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01477_LEFT_CC_1
+MLO files: 0
+
+Case: P_01489_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01489_RIGHT_MLO_1
+
+Case: P_01566_RIGHT_CASE_3_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01566_RIGHT_MLO_3
+
+Case: P_01578_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01578_LEFT_MLO_1
+
+Case: P_01605_LEFT_CASE_2_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01605_LEFT_CC_2
+MLO files: 0
+
+Case: P_01614_LEFT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01614_LEFT_MLO_1
+
+Case: P_01623_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01623_RIGHT_CC_1
+MLO files: 0
+
+Case: P_01623_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01623_RIGHT_MLO_1
+
+Case: P_01640_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01640_LEFT_MLO_1
+
+Case: P_01645_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01645_RIGHT_CC_1
+MLO files: 0
+
+Case: P_01677_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01677_RIGHT_MLO_1
+
+Case: P_01778_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01778_RIGHT_CC_1
+MLO files: 0
+
+Case: P_01800_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: MLO_Missing
+CC files: 1
+  - Mass-Test_P_01800_RIGHT_CC_1
+MLO files: 0
+
+Case: P_01807_RIGHT_CASE_1_BENIGN
+Pathology: BENIGN
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01807_RIGHT_MLO_1
+
+Case: P_01833_RIGHT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01833_RIGHT_MLO_1
+
+Case: P_01865_LEFT_CASE_1_MALIGNANT
+Pathology: MALIGNANT
+Problem: CC_Missing
+CC files: 0
+MLO files: 1
+  - Mass-Test_P_01865_LEFT_MLO_1
+
+------------------------------------------
+EXTRA FILES INSIDE SAME ABNORMALITY
+------------------------------------------
+No extra files inside the same abnormality.
+
+================================================================================

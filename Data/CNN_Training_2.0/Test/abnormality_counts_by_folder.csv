@@ -1,0 +1,9 @@
+pathology_folder,view_folder,folder_path,abnormality_count_from_script,png_file_count_from_script,actual_abnormality_folders_on_disk,actual_png_files_on_disk
+BENIGN,Both_CC_MLO,C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\BENIGN\Both_CC_MLO,82,164,82,164
+BENIGN,CC_Missing,C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\BENIGN\CC_Missing,18,18,18,18
+BENIGN,MLO_Missing,C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\BENIGN\MLO_Missing,12,12,12,12
+BENIGN,Unknown,C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\BENIGN\Unknown,0,0,0,0
+MALIGNANT,Both_CC_MLO,C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\MALIGNANT\Both_CC_MLO,60,120,60,120
+MALIGNANT,CC_Missing,C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\MALIGNANT\CC_Missing,20,20,20,20
+MALIGNANT,MLO_Missing,C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\MALIGNANT\MLO_Missing,7,7,7,7
+MALIGNANT,Unknown,C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\CNN_Training_2.0\Case_Based_Benign_Malignant\MALIGNANT\Unknown,0,0,0,0

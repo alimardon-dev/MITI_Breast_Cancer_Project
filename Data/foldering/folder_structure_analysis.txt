@@ -1,0 +1,94 @@
+CBIS-DDSM FOLDER STRUCTURE ANALYSIS REPORT
+================================================================================
+Source: C:\Users\USER\Desktop\MITI_Breast_Cancer_Project\Data\Raw\CBIS-DDSM
+Focused on: Mass-Test_ and Mass-Training_ folders only
+================================================================================
+Total folders in CBIS-DDSM : 6671
+  Mass-Test_ + Mass-Training_: 3288
+  Ignored (Calc-*, other)    : 3383
+
+Ignored folder breakdown:
+  Calc-Training: 2773
+  Calc-Test: 610
+
+--------------------------------------------------------------------------------
+Scanning 3288 Mass folders...
+--------------------------------------------------------------------------------
+Unique folder structures found: 4
+================================================================================
+
+PATTERN #1  —  1593 folder(s)
+------------------------------------------------------------
+Structure:
+  [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+    [DIR]  1.000000-ROI mask images-NNNNN/
+      [FILE] 1-1.dcm
+      [FILE] 1-2.dcm
+
+Example folders (3 shown):
+  - Mass-Test_P_00016_LEFT_CC_1
+  - Mass-Test_P_00016_LEFT_MLO_1
+  - Mass-Test_P_00017_LEFT_CC_1
+  ... and 1590 more
+
+
+PATTERN #2  —  1592 folder(s)
+------------------------------------------------------------
+Structure:
+  [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+    [DIR]  1.000000-full mammogram images-NNNNN/
+      [FILE] 1-1.dcm
+
+Example folders (3 shown):
+  - Mass-Test_P_00016_LEFT_CC
+  - Mass-Test_P_00016_LEFT_MLO
+  - Mass-Test_P_00017_LEFT_CC
+  ... and 1589 more
+
+
+PATTERN #3  —  98 folder(s)
+------------------------------------------------------------
+Structure:
+  [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+    [DIR]  1.000000-cropped images-NNNNN/
+      [FILE] 1-1.dcm
+  [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+    [DIR]  1.000000-ROI mask images-NNNNN/
+      [FILE] 1-1.dcm
+
+Example folders (3 shown):
+  - Mass-Test_P_00145_LEFT_MLO_1
+  - Mass-Test_P_00381_LEFT_CC_1
+  - Mass-Test_P_00699_RIGHT_CC_1
+  ... and 95 more
+
+
+PATTERN #4  —  5 folder(s)
+------------------------------------------------------------
+Structure:
+  [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+    [DIR]  1.000000-ROI mask images-NNNNN/
+      [FILE] 1-1.dcm
+  [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+    [DIR]  1.000000-cropped images-NNNNN/
+      [FILE] 1-1.dcm
+
+Example folders (3 shown):
+  - Mass-Test_P_00145_LEFT_CC_1
+  - Mass-Test_P_00192_RIGHT_CC_1
+  - Mass-Test_P_00381_LEFT_MLO_1
+  ... and 2 more
+
+
+================================================================================
+SUMMARY TABLE
+------------------------------------------------------------
+Pattern #       Count    Structure (first line)
+------------------------------------------------------------
+  #1             1593    [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+  #2             1592    [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+  #3               98    [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+  #4                5    [DIR]  DD-MM-YYYY-DDSM-NA-NNNNN/
+------------------------------------------------------------
+  TOTAL          3288
+================================================================================
